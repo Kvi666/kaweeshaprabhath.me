@@ -1,18 +1,16 @@
 import React from 'react';
-import './App.css'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Pages/Home';
-import Header from './Components/Header.jsx';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
 
-function App() {
+const App = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col h-screen">
       <Header />
-      <div className="flex-1">
-        <Home />
+      <div className="flex-grow">
+        <Hero />
       </div>
     </div>
   );
-}
+};
 
 export default App;

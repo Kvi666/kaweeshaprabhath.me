@@ -44,7 +44,7 @@ const Hero = () => {
                     }}
                 ></div>
             </div>
-            <div className="mt-[-50px] flex h-screen items-center justify-center">
+            <div className="flex h-screen items-center justify-center">
                 <div className="max-w-full flex-shrink-0 px-4 text-center lg:mx-0 lg:max-w-3xl lg:pt-8">
                     <h1 className="mt-10 text-5xl font-bold tracking-tight text-white sm:text-6xl">
                         revolutionize <span className="text-sky-500">your workflow</span> with{' '}
