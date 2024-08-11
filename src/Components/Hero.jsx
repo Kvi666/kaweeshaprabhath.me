@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className="relative isolate overflow-hidden bg-gray-900">
+        <div className="relative isolate overflow-hidden bg-gray-900 md:ml-64"> {/* Add margin-left on medium screens and up */}
             <svg
                 className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                 aria-hidden="true"
