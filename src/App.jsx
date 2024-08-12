@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header';
-import Hero from './Components/Hero';
+import Home from './Pages/Home';
+import './App.css'
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <Header />
 
       {/* Main Content Area */}
-      <Hero />
+      <Home />
     </div>
   );
 };
