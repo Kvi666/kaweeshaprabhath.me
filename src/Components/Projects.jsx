@@ -27,7 +27,7 @@ const Projects = () => {
     ];
 
     return (
-        <div id='Projects' className="relative isolate overflow-hidden bg-gray-900 md:ml-64 pb-16 pt-12">
+        <div id='Projects' className="relative isolate overflow-hidden bg-gray-900 md:ml-96 pb-16 pt-12">
             <div className="max-w-7xl mx-auto px-8 md:px-16 xl:px-20">
                 <div className="md:w-2/3 lg:w-1/2 mb-12 text-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 text-secondary">

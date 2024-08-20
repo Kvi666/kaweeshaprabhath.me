@@ -9,20 +9,20 @@ const Header = () => {
         <div className="flex">
             {/* Sidebar */}
             <aside
-                className={`fixed z-40 top-0 left-0 w-64 h-full px-4 py-8 overflow-y-auto bg-white border-r dark:bg-gray-900 dark:border-gray-700 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-200 ease-in-out`}
+                className={`fixed z-40 top-0 left-0 w-96 h-full px-4 py-8 overflow-y-auto bg-white border-r dark:bg-gray-900 dark:border-gray-700 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-200 ease-in-out`}
             >
-                <a href="#" className="mx-auto">
-                    <img className="w-auto h-6 sm:h-7" src={Logo} alt="Logo" />
+                <a href="#" className="mx-auto ">
+                    <img className="w-auto h-6 sm:h-7 mx-auto" src={Logo} alt="Logo" />
                 </a>
 
                 <div className="flex flex-col items-center mt-6 -mx-2">
-                    <img className="object-cover w-24 h-24 mx-2 rounded-full" src={Dp} alt="Profile" />
+                    <img className="object-cover w-28 h-28 mx-2 rounded-full" src={Dp} alt="Profile" />
                     <h4 className="mx-2 mt-2 font-medium text-gray-800 dark:text-gray-200">Kvi</h4>
                     <p className="mx-2 mt-1 text-sm font-medium text-gray-600 dark:text-gray-400">dev.kvi@gmail.com</p>
                 </div>
 
                 <div className="flex flex-col justify-between flex-1 mt-6">
-                    <nav>
+                    <nav className='flex justify-center'>
                         <ul className="space-y-2 font-medium">
                             <li>
                                 <a href="#Home" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
@@ -61,11 +61,11 @@ const Header = () => {
                                     <svg className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                         <path d="M5 3h10v14H5V3zm2 2v2h6V5H7zm0 4v6h6V9H7z" />
                                     </svg>
-                                    <span className="flex-1 ms-3 whitespace-nowrap">Skills</span>
+                                    <span className="flex-1 ms-3 whitespace-nowrap">Expertise</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <a href="#Contact" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                     <svg className="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                         <path d="M2 3v14h16V3H2zm2 2h12v10H4V5zm1 1h10v2H5V6z" />
                                     </svg>

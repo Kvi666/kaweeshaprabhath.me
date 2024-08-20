@@ -119,7 +119,7 @@ import Moratuwa_Logo from "../assets/Moratuwa.jpg"
 
 const Resume = () => {
     return (
-        <div id='Resume' className="relative isolate overflow-hidden bg-gray-800 md:ml-64">
+        <div id='Resume' className="relative isolate overflow-hidden bg-gray-800 md:ml-96">
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                 <div className="md:w-2/3 lg:w-1/2 mt-12 text-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-secondary">

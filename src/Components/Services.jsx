@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div id='Services' className="relative isolate overflow-hidden bg-gray-900 md:ml-64"> {/* Add margin-left on medium screens and up */}
+        <div id='Services' className="relative isolate overflow-hidden bg-gray-900 md:ml-96"> {/* Add margin-left on medium screens and up */}
 
             <div className="bg-gray-800 p-4 min-h-screen">
                 <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20">
