@@ -14,9 +14,9 @@ const Expertise = () => {
   return (
     <div
       id="Expertise"
-      className="relative isolate overflow-hidden bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 px-12 md:ml-96"
+      className="relative isolate overflow-hidden bg-gray-800 md:ml-96"
     >
-      <div className="bg-gray-900 p-4 min-h-screen">
+      <div className="bg-gray-900 p-8 min-h-screen">
         <div
           aria-hidden="true"
           className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
@@ -24,9 +24,9 @@ const Expertise = () => {
           <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
           <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
         </div>
-        <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-          <div className="md:w-2/3 lg:w-1/2 my-24 text-gray-100">
-            <h2 className="my-8 text-2xl font-bold text-white md:text-4xl">
+        <div className="max-w-7xl mx-auto md:px-12 xl:px-8">
+          <div className="md:w-2/3 lg:w-1/2 my-12 md:my-24 text-gray-100">
+            <h2 className="my-4 text-2xl font-bold text-white sm:my-8 md:text-4xl">
               Expertise
             </h2>
             <p className="text-gray-300">
@@ -34,7 +34,7 @@ const Expertise = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 justify-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 justify-center">
             {[
               { src: Html_Logo, alt: "HTML Logo", label: "HTML" },
               { src: Css_Logo, alt: "CSS Logo", label: "CSS" },
@@ -57,15 +57,17 @@ const Expertise = () => {
             ].map((tech, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center border text-gray-600 border-gray-700 p-8 rounded-lg transform transition-transform hover:scale-105 hover:border-indigo-500 shadow-md"
+                className="flex flex-col items-center justify-center border text-gray-600 border-gray-700 p-6 sm:p-10 rounded-lg transform transition-transform hover:scale-105 hover:border-indigo-500 shadow-md"
               >
                 <img
                   src={tech.src}
                   loading="lazy"
-                  className="w-16 h-16"
+                  className="w-12 h-12 sm:w-16 sm:h-16"
                   alt={tech.alt}
                 />
-                <p className="text-sm text-gray-300 mt-4">{tech.label}</p>
+                <p className="text-xs sm:text-sm text-gray-300 mt-2 sm:mt-4">
+                  {tech.label}
+                </p>
               </div>
             ))}
           </div>
