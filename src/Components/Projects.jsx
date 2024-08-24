@@ -5,23 +5,34 @@ const Projects = () => {
   const projects = [
     {
       imgSrc: ProjectImg,
-      title: "Noteworthy technology acquisitions 2021",
+      title: "Project 01",
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      credit: "Credits: [Advirto Digital]",
       link: "#",
     },
     {
       imgSrc: ProjectImg,
-      title: "Innovative tech trends 2022",
+      title: "Project 01",
       description:
-        "Explore the most innovative technology trends that are set to shape the future in 2022 and beyond.",
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      credit: "Credits: [Advirto Digital]",
       link: "#",
     },
     {
       imgSrc: ProjectImg,
-      title: "Top AI breakthroughs in 2023",
+      title: "Project 01",
       description:
-        "Discover the top AI breakthroughs that have the potential to revolutionize industries in 2023.",
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      credit: "Credits: [Advirto Digital]",
+      link: "#",
+    },
+    {
+      imgSrc: ProjectImg,
+      title: "Project 01",
+      description:
+        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+      credit: "Credits: [Advirto Digital]",
       link: "#",
     },
   ];
@@ -63,7 +74,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {projects.map((project, index) => (
               <div
                 key={index}
@@ -85,6 +96,12 @@ const Projects = () => {
                   <p className="text-gray-700 dark:text-gray-300 mt-2 text-sm md:text-base">
                     {project.description}
                   </p>
+                  <a href="advirto.digital">
+                    {project.credit && (
+                      <p className="text-gray-500 mt-2">{project.credit}</p>
+                    )}
+                  </a>
+
                   <a
                     href={project.link}
                     className="inline-flex items-center px-4 py-2 mt-4 text-sm font-medium text-white bg-sky-400 rounded-lg hover:bg-sky-600 focus:ring-4 focus:outline-none"
