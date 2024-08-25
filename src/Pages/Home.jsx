@@ -5,12 +5,14 @@ import Projects from "../Components/Projects";
 import Resume from "../Components/Resume";
 import ContactForm from "../Components/ContactForm";
 import Expertise from "../Components/Expertise";
+import About from "../Components/About";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Services />
+      {/* <Services /> */}
+      <About />
       <Expertise />
       <Resume />
       <Projects />
