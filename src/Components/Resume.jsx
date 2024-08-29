@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div
       id="Resume"
-      className="relative isolate overflow-hidden bg-gray-800 md:ml-96"
+      className="relative isolate overflow-hidden bg-gray-900 md:ml-96 min-h-screen flex items-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 xl:px-20">
         <div className="md:w-2/3 lg:w-1/2 mt-12 text-gray-100">
@@ -32,7 +32,7 @@ const Resume = () => {
           <div>
             <div className="flex justify-center">
               <div className="w-full max-w-lg flex justify-center">
-                <div className="bg-gray-800 py-6 sm:py-8 md:py-10 px-4 sm:px-6">
+                <div className="bg-gray-900 py-6 sm:py-8 md:py-10 px-4 sm:px-6 rounded">
                   <div className="container mx-auto">
                     <ul className="relative border-l-4 border-gray-600">
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
@@ -57,7 +57,7 @@ const Resume = () => {
                         </p>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
-                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
+                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-900 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
                           <img
                             src={Udemy_Logo}
                             alt="Logo"
@@ -78,7 +78,7 @@ const Resume = () => {
                         </p>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
-                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
+                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-900 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
                           <img
                             src={Udemy_Logo}
                             alt="Logo"
@@ -109,11 +109,11 @@ const Resume = () => {
           <div>
             <div className="flex justify-center">
               <div className="w-full max-w-lg flex justify-center">
-                <div className="bg-gray-800 py-6 sm:py-8 md:py-10 px-4 sm:px-6">
+                <div className="bg-gray-900 py-6 sm:py-8 md:py-10 px-4 sm:px-6">
                   <div className="container mx-auto">
                     <ul className="relative border-l-4 border-gray-600">
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
-                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
+                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-900 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
                           <img
                             src={Advirto_Logo}
                             alt="Logo"
@@ -134,7 +134,7 @@ const Resume = () => {
                         </p>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
-                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
+                        <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-900 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
                           <img
                             src={Esupport_Logo}
                             alt="Logo"
@@ -172,8 +172,8 @@ const Resume = () => {
                         <p className="text-gray-400 font-light text-xs sm:text-sm text-justify">
                           Providing freelance web development services on
                           Fiverr, specializing in custom websites and e-commerce
-                          platforms. Managing projects from start to finish,
-                          leveraging HTML, CSS, JavaScript, and frameworks.
+                          platforms. Managing client projects end-to-end, from
+                          requirements gathering to deployment and support.
                         </p>
                       </li>
                     </ul>

@@ -4,9 +4,9 @@ const Services = () => {
   return (
     <div
       id="Services"
-      className="relative isolate overflow-hidden bg-gray-800 md:ml-96"
+      className="relative isolate overflow-hidden bg-gray-900 md:ml-96"
     >
-      <div className="bg-gray-800 p-8 min-h-screen flex justify-center items-center">
+      <div className="bg-gray-900 p-8 min-h-screen flex justify-center items-center">
         <div
           aria-hidden="true"
           className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"

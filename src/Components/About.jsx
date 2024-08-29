@@ -3,7 +3,10 @@ import Dp from "../assets/dp.jpg";
 
 const About = () => {
   return (
-    <section className="relative isolate py-12 md:py-24 px-6 md:px-12 lg:px-24 overflow-hidden bg-gray-800 md:ml-96">
+    <section
+      id="About"
+      className="relative isolate py-12 md:py-24 px-6 md:px-12 lg:px-24 overflow-hidden bg-gray-800 md:ml-96"
+    >
       <div
         aria-hidden="true"
         className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
