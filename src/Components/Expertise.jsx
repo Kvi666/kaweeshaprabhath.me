@@ -1,80 +1,100 @@
-import React from "react";
-import Html_Logo from "../assets/html.png";
-import Css_Logo from "../assets/css.png";
-import BootStrap_Logo from "../assets/bootstrap.png";
-import Tailwind_Logo from "../assets/tailwind.png";
-import Js_Logo from "../assets/js.png";
-import React_Logo from "../assets/react.png";
-import Php_Logo from "../assets/php.png";
-import Laravel_Logo from "../assets/laravel.png";
-import Figma_Logo from "../assets/figma.png";
-import Typescript_Logo from "../assets/typescript.png";
+import HTML from "../assets/skills/html.png";
+import CSS from "../assets/skills/css.png";
+// Add the rest of your skill logos here
+import JavaScript from "../assets/skills/js.png";
+import Python from "../assets/skills/python.png";
+import PHP from "../assets/skills/php.png";
+import TypeScript from "../assets/skills/typescript.png";
+import ReactLogo from "../assets/skills/react.png";
+import Laravel from "../assets/skills/laravel.png";
+import Tailwind from "../assets/skills/tailwind.png";
+import Bootstrap from "../assets/skills/bootstrap.png";
+import MySQL from "../assets/skills/mysql.png";
+import Git from "../assets/skills/git.png";
+import GitHub from "../assets/skills/github.png";
+import Photoshop from "../assets/skills/photoshop.png";
+import PremierePro from "../assets/skills/premiere-pro.png";
+import Figma from "../assets/skills/figma.png";
+import Illustrator from "../assets/skills/illustrator.png";
 
-const Expertise = () => {
+export default function SkillsWidget() {
+  const skills = {
+    languages: [
+      { name: "HTML5", logo: HTML },
+      { name: "CSS3", logo: CSS },
+      { name: "JavaScript", logo: JavaScript },
+      { name: "TypeScript", logo: TypeScript },
+      { name: "Python", logo: Python },
+      { name: "PHP", logo: PHP },
+    ],
+    frameworks: [
+      { name: "React", logo: ReactLogo },
+      { name: "Laravel", logo: Laravel },
+      { name: "Tailwind CSS", logo: Tailwind },
+      { name: "Bootstrap", logo: Bootstrap },
+    ],
+    designingTools: [
+      { name: "Photoshop", logo: Photoshop },
+      { name: "Premiere Pro", logo: PremierePro },
+      { name: "Figma", logo: Figma },
+      { name: "Illustrator", logo: Illustrator },
+    ],
+    versionControl: [
+      { name: "Git", logo: Git },
+      { name: "GitHub", logo: GitHub },
+    ],
+    databases: [{ name: "MySQL", logo: MySQL }],
+  };
+
+  const renderSkills = (category) =>
+    skills[category].map((skill) => (
+      <div
+        key={skill.name}
+        className="flex flex-col items-center justify-center  bg-gray-800  shadow-md rounded-lg p-4 transition duration-300 hover:shadow-lg"
+      >
+        <img
+          src={skill.logo}
+          alt={`${skill.name} logo`}
+          className="w-12 h-12 mb-2"
+        />
+        <span className="text-sm font-normal text-white">{skill.name}</span>
+      </div>
+    ));
+
   return (
     <div
       id="Expertise"
-      className="relative isolate overflow-hidden bg-gray-800 md:ml-96"
+      className="relative isolate overflow-hidden bg-gray-900 md:ml-96 min-h-screen flex items-center pb-24"
     >
-      <div className="bg-gray-800 p-8 h-screen">
-        <div
-          aria-hidden="true"
-          className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
-        >
-          <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
-          <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
+      <div className="max-w-7xl  px-4 sm:px-6 md:px-12 xl:px-20">
+        <div className="md:w-2/3 lg:w-1/2 mt-12 text-gray-100">
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
+          >
+            <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
+            <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
+          </div>
+          <h2 className="my-8 text-2xl font-bold text-white md:text-4xl">
+            Expertise
+          </h2>
+          <p className="text-gray-300">
+            We have built many products and some of them are below
+          </p>
         </div>
-        <div className="max-w-7xl mx-auto md:px-12 xl:px-8">
-          <div className="md:w-2/3 lg:w-1/2 my-12 md:my-24 text-gray-100">
-            <h2 className="my-4 text-2xl font-bold text-white sm:my-8 md:text-4xl">
-              Expertise
-            </h2>
-            <p className="text-gray-300">
-              We have built many products and some of them are below
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 justify-center">
-            {[
-              { src: Html_Logo, alt: "HTML Logo", label: "HTML" },
-              { src: Css_Logo, alt: "CSS Logo", label: "CSS" },
-              { src: Js_Logo, alt: "JavaScript Logo", label: "JavaScript" },
-              {
-                src: Typescript_Logo,
-                alt: "TypeScript Logo",
-                label: "TypeScript",
-              },
-              {
-                src: BootStrap_Logo,
-                alt: "Bootstrap Logo",
-                label: "Bootstrap",
-              },
-              { src: Tailwind_Logo, alt: "Tailwind Logo", label: "Tailwind" },
-              { src: React_Logo, alt: "React Logo", label: "React" },
-              { src: Php_Logo, alt: "PHP Logo", label: "PHP" },
-              { src: Laravel_Logo, alt: "Laravel Logo", label: "Laravel" },
-              { src: Figma_Logo, alt: "Figma Logo", label: "Figma" },
-            ].map((tech, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center justify-center border text-gray-600 border-gray-700 p-6 sm:p-10 rounded-lg transform transition-transform hover:scale-105 hover:border-indigo-500 shadow-md"
-              >
-                <img
-                  src={tech.src}
-                  loading="lazy"
-                  className="w-12 h-12 sm:w-16 sm:h-16"
-                  alt={tech.alt}
-                />
-                <p className="text-xs sm:text-sm text-gray-300 mt-2 sm:mt-4">
-                  {tech.label}
-                </p>
+        <div className="max-w-4xl mx-auto space-y-8">
+          {Object.entries(skills).map(([category]) => (
+            <div key={category}>
+              <h3 className="text-lg font-normal text-white mb-4">
+                {category}
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                {renderSkills(category)}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
-};
-
-export default Expertise;
+}
