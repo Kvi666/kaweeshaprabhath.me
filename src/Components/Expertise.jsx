@@ -82,12 +82,12 @@ export default function SkillsWidget() {
             We have built many products and some of them are below
           </p>
         </div>
-        <div className="max-w-4xl mx-auto space-y-8">
+        <div className="max-w-4xl mx-auto space-y-8 py-5">
           {Object.entries(skills).map(([category]) => (
             <div key={category}>
-              <h3 className="text-lg font-normal text-white mb-4">
+              {/* <h3 className="text-lg font-normal text-white mb-4">
                 {category}
-              </h3>
+              </h3> */}
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {renderSkills(category)}
               </div>

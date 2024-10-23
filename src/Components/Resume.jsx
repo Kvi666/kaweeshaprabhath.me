@@ -43,18 +43,20 @@ const Resume = () => {
                             className="w-full h-full object-contain p-1 rounded-full"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2023 — 2024
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          Full Stack Development
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Completed a Full Stack Development program at Moratuwa
-                          University, covering frontend and backend
-                          technologies. Gained skills in database management,
-                          server-side scripting, and dynamic web applications.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400 hover:text-gray-200 transition duration-300 ease-in-out">
+                            2023 — 2024
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200 hover:text-gray-100 transition duration-300 ease-in-out">
+                            Full Stack Development
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start hover:text-gray-300 transition duration-300 ease-in-out">
+                            Completed a Full Stack Development program at
+                            Moratuwa University, covering frontend and backend
+                            technologies. Gained skills in database management,
+                            server-side scripting, and dynamic web applications.
+                          </p>
+                        </div>
                       </li>
 
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
@@ -65,18 +67,20 @@ const Resume = () => {
                             className="w-full h-full object-contain p-1"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2023 - 2024
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          Frontend Development
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Finished a detailed Frontend Development course on
-                          Udemy, mastering HTML, CSS, JavaScript, and React. The
-                          course included practical projects to build responsive
-                          and user-friendly web applications.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
+                            2023 - 2024
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200">
+                            Frontend Development
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
+                            Finished a detailed Frontend Development course on
+                            Udemy, mastering HTML, CSS, JavaScript, and React.
+                            The course included practical projects to build
+                            responsive and user-friendly web applications.
+                          </p>
+                        </div>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
                         <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
@@ -86,19 +90,21 @@ const Resume = () => {
                             className="w-full h-full object-contain p-1"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2024 - Present
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          MERN Stack
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Completed a MERN Stack course on Udemy, focusing on
-                          MongoDB, Express.js, React, and Node.js. Acquired
-                          hands-on experience in building full-featured web
-                          applications, including RESTful APIs and dynamic
-                          interfaces.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
+                            2024 - Present
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200">
+                            MERN Stack
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
+                            Completed a MERN Stack course on Udemy, focusing on
+                            MongoDB, Express.js, React, and Node.js. Acquired
+                            hands-on experience in building full-featured web
+                            applications, including RESTful APIs and dynamic
+                            interfaces.
+                          </p>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -121,18 +127,20 @@ const Resume = () => {
                             className="w-full h-full object-contain p-1"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2023 - Present
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          Lead Developer
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Leading web development at Advirto Digital, managing a
-                          team to design, develop, and deploy web solutions.
-                          Ensuring project success through effective
-                          coordination and continuous workflow optimization.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
+                            2023 - Present
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200">
+                            Lead Developer
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
+                            Leading web development at Advirto Digital, managing
+                            a team to design, develop, and deploy web solutions.
+                            Ensuring project success through effective
+                            coordination and continuous workflow optimization.
+                          </p>
+                        </div>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
                         <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
@@ -142,20 +150,22 @@ const Resume = () => {
                             className="w-full h-full object-contain rounded-full p-1"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2023 - Present
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          Associate Software Engineer
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Working as an Associate Software Engineer at eSupport
-                          Technologies, responsible for developing and
-                          maintaining software applications. Collaborating with
-                          teams to design, implement, and optimize solutions,
-                          ensuring efficient functionality and a seamless user
-                          experience.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
+                            2023 - Present
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200">
+                            Associate Software Engineer
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
+                            Working as an Associate Software Engineer at
+                            eSupport Technologies, responsible for developing
+                            and maintaining software applications. Collaborating
+                            with teams to design, implement, and optimize
+                            solutions, ensuring efficient functionality and a
+                            seamless user experience.
+                          </p>
+                        </div>
                       </li>
                       <li className="mb-8 sm:mb-10 ml-4 sm:ml-8">
                         <div className="absolute w-8 h-8 sm:w-10 sm:h-10 bg-gray-800 rounded-full -left-5 border-2 border-gray-600 flex items-center justify-center">
@@ -165,18 +175,21 @@ const Resume = () => {
                             className="w-full h-full object-contain p-1"
                           />
                         </div>
-                        <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                          2022 - Present
-                        </time>
-                        <h5 className="text-base sm:text-md font-medium text-gray-200">
-                          Freelancer
-                        </h5>
-                        <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                          Providing freelance web development services on
-                          Fiverr, specializing in custom websites and e-commerce
-                          platforms. Managing client projects end-to-end, from
-                          requirements gathering to deployment and support.
-                        </p>
+                        <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
+                          <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
+                            2022 - Present
+                          </time>
+                          <h5 className="text-base sm:text-md font-medium text-gray-200">
+                            Freelancer
+                          </h5>
+                          <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
+                            Providing freelance web development services on
+                            Fiverr, specializing in custom websites and
+                            e-commerce platforms. Managing client projects
+                            end-to-end, from requirements gathering to
+                            deployment and support.
+                          </p>
+                        </div>
                       </li>
                     </ul>
                   </div>
