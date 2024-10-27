@@ -51,14 +51,14 @@ const About = () => {
           }}
         ></div>
       </div>
-      <div
+      {/* <div
         aria-hidden="true"
-        className="absolute inset-0 flex justify-end items-center opacity-10"
+        className="absolute inset-0 flex justify-center items-center opacity-10"
       >
         <h1 className="text-[20px] sm:text-[180px] font-extrabold text-blue-900 pr-6 sm:pr-20">
           HI
         </h1>
-      </div>
+      </div> */}
 
       <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12 max-w-7xl mx-auto">
         {/* Text Section */}
@@ -67,21 +67,21 @@ const About = () => {
             Hello I'm Kvi
           </h2>
           <p className="mt-4 text-gray-300 text-base text-sm-justify sm:text-lg max-w-lg mx-auto lg:mx-0">
-            Hello there! I'm Kvi, a 20-year-old web developer, UI/UX designer
-            and graphic artist. I navigate the digital realm with a passion for
+            Hello there! I'm Kvi, a 20-year-old developer, UI/UX designer and
+            graphic artist. I navigate the digital realm with a passion for
             crafting immersive online experiences and pushing the boundaries of
             creativity.
           </p>
 
           {/* Download CV Button */}
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6">
-            <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white  py-2 px-5 rounded-full shadow-md transition-all duration-300">
+            <button className="flex items-center gap-2 bg-indigo-600 hover:bg-blue-700 text-white  py-2 px-5 rounded-full shadow-md transition-all duration-300">
               <BsDownload className="text-lg" />
               <p>Download CV</p>
             </button>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-4 text-blue-400 mt-4 sm:mt-0">
+            <div className="flex items-center gap-4 text-indigo-500 mt-4 sm:mt-0">
               <FaFacebook className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
               <FaInstagram className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
               <FaLinkedin className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
@@ -90,7 +90,7 @@ const About = () => {
           </div>
 
           {/* Stats Section */}
-          <div className="relative z-10 flex justify-center lg:justify-start mt-10 sm:mt-16 gap-6 sm:gap-12 text-center lg:text-left">
+          <div className="relative z-10 flex justify-center lg:justify-start mt-4 sm:mt-8 gap-6 sm:gap-12 text-center lg:text-left">
             <div>
               <h3 className="text-3xl sm:text-4xl font-bold text-white">5+</h3>
               <p className="text-gray-400 text-xs sm:text-sm">Countries</p>

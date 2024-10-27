@@ -104,7 +104,7 @@ const Projects = () => {
 
                   <a
                     href={project.link}
-                    className="inline-flex items-center px-4 py-2 mt-4 text-sm font-medium text-white bg-sky-400 rounded-lg hover:bg-sky-600 focus:ring-4 focus:outline-none"
+                    className="inline-flex items-center px-4 py-2 mt-4 text-sm font-medium text-white bg-indigo-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none"
                   >
                     Read more
                     <svg
