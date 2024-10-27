@@ -67,17 +67,17 @@ const About = () => {
             Hello I'm Kvi
           </h2>
           <p className="mt-4 text-gray-300 text-base text-sm-justify sm:text-lg max-w-lg mx-auto lg:mx-0">
-            Hello there! I'm Kvi, a 20-year-old web developer, UI/UX designer,
-            graphic artist, and proud e-sport player. I navigate the digital
-            realm with a passion for crafting immersive online experiences and
-            pushing the boundaries of creativity.
+            Hello there! I'm Kvi, a 20-year-old web developer, UI/UX designer
+            and graphic artist. I navigate the digital realm with a passion for
+            crafting immersive online experiences and pushing the boundaries of
+            creativity.
           </p>
 
           {/* Download CV Button */}
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6">
-            <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-5 rounded-full shadow-md transition-all duration-300">
+            <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white  py-2 px-5 rounded-full shadow-md transition-all duration-300">
               <BsDownload className="text-lg" />
-              Download CV
+              <p>Download CV</p>
             </button>
 
             {/* Social Icons */}
