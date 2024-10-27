@@ -10,12 +10,12 @@ import About from "../Components/About";
 const Home = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <About />
       {/* <Services /> */}
       <Expertise />
       <Resume />
-      {/* <Projects /> */}
+      <Projects />
       <ContactForm />
     </>
   );

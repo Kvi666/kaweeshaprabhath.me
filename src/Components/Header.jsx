@@ -4,7 +4,6 @@ import Logo from "../assets/logo.png";
 import Typewriter from "./TypeWriter";
 
 const sections = [
-  { id: "Home", label: "Home" },
   { id: "About", label: "About" },
   { id: "Expertise", label: "Expertise" },
   { id: "Resume", label: "Resume" },

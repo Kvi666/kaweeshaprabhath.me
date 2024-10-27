@@ -21,7 +21,7 @@ const ContactForm = () => {
               <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
             </div>
             <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">
-              Contact Us
+              Contact Me
             </h1>
             <p className="mx-auto text-base leading-relaxed lg:w-2/4">
               Feel free to reach out to us! Whether you have a question,

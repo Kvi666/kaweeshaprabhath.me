@@ -50,7 +50,7 @@ export default function SkillsWidget() {
     skills[category].map((skill) => (
       <div
         key={skill.name}
-        className="flex flex-col items-center justify-center  bg-gray-800  shadow-md rounded-lg p-4 transition duration-300 hover:shadow-lg"
+        className="flex flex-col items-center justify-center  bg-gray-700  shadow-md rounded-lg p-4 transition duration-300 hover:shadow-lg"
       >
         <img
           src={skill.logo}
@@ -64,7 +64,7 @@ export default function SkillsWidget() {
   return (
     <div
       id="Expertise"
-      className="relative isolate overflow-hidden bg-gray-900 md:ml-96 min-h-screen flex items-center pb-24"
+      className="relative isolate overflow-hidden bg-gray-800 md:ml-96 min-h-screen flex items-center pb-24"
     >
       <div className="max-w-7xl  px-4 sm:px-6 md:px-12 xl:px-20">
         <div className="md:w-2/3 lg:w-1/2 mt-12 text-gray-100">
