@@ -117,7 +117,7 @@ const About = () => {
         {/* Profile Image */}
         <div className="lg:w-1/3 flex justify-center lg:justify-end px-4 md:px-0">
           <img
-            className="w-full max-w-[150px] sm:max-w-xs lg:max-w-md rounded-2xl shadow-lg border border-blue-400"
+            className="w-full max-w-[250px] sm:max-w-xs lg:max-w-md rounded-2xl shadow-lg border border-blue-400"
             src={Dp}
             alt="Profile"
           />

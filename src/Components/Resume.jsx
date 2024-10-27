@@ -132,13 +132,13 @@ const Resume = () => {
                             2023 - Present
                           </time>
                           <h5 className="text-base sm:text-md font-medium text-gray-200">
-                            Lead Developer
+                            Senior Developer
                           </h5>
                           <p className="text-gray-400 font-medium text-xs sm:text-sm text-start">
-                            Leading web development at Advirto Digital, managing
-                            a team to design, develop, and deploy web solutions.
-                            Ensuring project success through effective
-                            coordination and continuous workflow optimization.
+                            Senior Developer at Advirto Digital, leading web
+                            development projects, managing a team, and
+                            optimizing workflows to ensure high-quality, on-time
+                            delivery.
                           </p>
                         </div>
                       </li>
