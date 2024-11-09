@@ -38,19 +38,6 @@ const Projects = () => {
   ];
 
   return (
-    // <div
-    //   id="Projects"
-    //   className="relative isolate overflow-hidden bg-gray-900 pt-12 md:ml-96"
-    // >
-    //   <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
-    //     <div className="text-gray-100 mb-12">
-    //       <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
-    //         Projects
-    //       </h2>
-    //       <p className="text-gray-300">
-    //         We have built many products, and some of them are showcased below.
-    //       </p>
-    //     </div>
     <div
       id="Projects"
       className="relative isolate overflow-hidden bg-gray-800 md:ml-96"
