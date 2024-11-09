@@ -67,7 +67,7 @@ const About = () => {
             Hello I'm Kvi
           </h2>
           <p className="mt-4 text-gray-300 text-base text-sm-justify sm:text-lg max-w-lg mx-auto lg:mx-0">
-            Hello there! I'm Kvi, a 20-year-old developer, UI/UX designer and
+            Hello there! I'm Kvi, a 22-year-old developer, UI/UX designer and
             graphic artist. I navigate the digital realm with a passion for
             crafting immersive online experiences and pushing the boundaries of
             creativity.
