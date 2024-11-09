@@ -1,15 +1,16 @@
 import React from "react";
 import ProjectImg from "../assets/tea.jpg";
+import Project_01 from "../assets/keyword.jpg"
 
 const Projects = () => {
   const projects = [
     {
-      imgSrc: ProjectImg,
-      title: "Project 01",
+      imgSrc: Project_01,
+      title: "Keyword Finder in Web Pages",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-      credit: "Credits: [Advirto Digital]",
-      link: "#",
+        "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
+      // credit: "Credits: [Advirto Digital]",
+      link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
     },
     {
       imgSrc: ProjectImg,
