@@ -45,13 +45,12 @@ const Header = () => {
     <div className="flex">
       {/* Sidebar */}
       <aside
-        className={`fixed z-40 top-0 left-0 w-96 h-full px-4 py-8 overflow-y-auto bg-white border-r dark:bg-gray-900 dark:border-gray-700 transform ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 transition-transform duration-200 ease-in-out`}
+        className={`fixed z-40 top-0 left-0 w-96 h-full px-4 py-8 overflow-y-auto bg-white border-r dark:bg-gray-900 dark:border-gray-700 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+          } md:translate-x-0 transition-transform duration-200 ease-in-out`}
       >
-        <a href="#" className="mx-auto ">
+        {/* <a href="#" className="mx-auto ">
           <img className="w-auto h-6 sm:h-7 mx-auto" src={Logo} alt="Logo" />
-        </a>
+        </a> */}
 
         <div className="flex flex-col items-center mt-6 -mx-2">
           <img
@@ -60,7 +59,7 @@ const Header = () => {
             alt="Profile"
           />
           <h4 className="mx-2 mt-2 font-medium text-gray-800 dark:text-gray-200">
-            Kvi
+            Kaweesha Prabhath
           </h4>
           <p className="mx-2 mt-1 text-sm font-medium text-gray-600 dark:text-gray-400">
             <Typewriter
@@ -81,11 +80,10 @@ const Header = () => {
                   <a
                     href={`#${section.id}`}
                     onClick={() => setIsOpen(false)} // Close the menu when a link is clicked
-                    className={`flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group transition duration-300 ease-in-out ${
-                      activeSection === section.id
-                        ? "bg-gray-100 dark:bg-gray-700 scale-105 shadow-lg"
-                        : ""
-                    }`}
+                    className={`flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group transition duration-300 ease-in-out ${activeSection === section.id
+                      ? "bg-gray-100 dark:bg-gray-700 scale-105 shadow-lg"
+                      : ""
+                      }`}
                   >
                     <span className="flex-1 px-3 whitespace-nowrap text-center">
                       {section.label}
