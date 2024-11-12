@@ -1,6 +1,8 @@
 import React from "react";
 import Dp from "../assets/dp.jpg";
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 import { BsDownload } from "react-icons/bs";
 
 const About = () => {
@@ -82,10 +84,12 @@ const About = () => {
 
             {/* Social Icons */}
             <div className="flex items-center gap-4 text-indigo-500 mt-4 sm:mt-0">
-              <FaFacebook className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
-              <FaInstagram className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
-              <FaLinkedin className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
-              <FaGithub className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" />
+              <a href="https://www.facebook.com/kaweeshaprabhathuduwilaarachchi" target="_blank"><FaFacebook className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+              <a href="https://www.linkedin.com/in/kaweesha-prabhath-989305314/" target="_blank"><FaLinkedin className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+              <a href="https://github.com/Kvi666" target="_blank"><FaGithub className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+              <a href="https://api.whatsapp.com/send?phone=94702585455" target="_blank"><IoLogoWhatsapp className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+              <a href="https://www.instagram.com/kvi69.exe/" target="_blank"><FaInstagram className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+
             </div>
           </div>
 

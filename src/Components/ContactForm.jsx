@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Linkedin_Logo from "../assets/linkedin.png";
-import FaceBook_Logo from "../assets/facebook.png";
-import GitHub_Logo from "../assets/github.png";
-import WhatsApp_Logo from "../assets/whatsapp.png";
+import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -135,20 +134,15 @@ const ContactForm = () => {
                     dev.kaweeshaprabhath@gmail.com
                   </a>
                 </div>
-                <span className="inline-flex m-auto">
-                  <a href="#" className="ml-4 text-gray-500">
-                    <img src={FaceBook_Logo} alt="" />
-                  </a>
-                  <a href="#" className="ml-4 text-gray-500">
-                    <img src={WhatsApp_Logo} alt="" />
-                  </a>
-                  <a href="#" className="ml-4 text-gray-500">
-                    <img src={GitHub_Logo} alt="" />
-                  </a>
-                  <a href="#" className="ml-4 text-gray-500">
-                    <img src={Linkedin_Logo} alt="" />
-                  </a>
-                </span>
+
+                <div className="inline-flex m-auto gap-4 text-grey mt-4 sm:mt-0">
+                  <a href="https://www.facebook.com/kaweeshaprabhathuduwilaarachchi" target="_blank"><FaFacebook className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+                  <a href="https://www.linkedin.com/in/kaweesha-prabhath-989305314/" target="_blank"><FaLinkedin className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+                  <a href="https://github.com/Kvi666" target="_blank"><FaGithub className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+                  <a href="https://api.whatsapp.com/send?phone=94702585455" target="_blank"><IoLogoWhatsapp className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+                  <a href="https://www.instagram.com/kvi69.exe/" target="_blank"><FaInstagram className="text-xl sm:text-2xl cursor-pointer hover:text-blue-500 transition duration-300" /></a>
+
+                </div>
               </div>
             </form>
           </div>
