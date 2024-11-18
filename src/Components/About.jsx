@@ -66,7 +66,7 @@ const About = () => {
         {/* Text Section */}
         <div className="lg:w-2/3 text-center lg:text-left px-4 md:px-0">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white md:text-5xl">
-            Hello I'm Kvi
+            Hello I'm Kaweesha
           </h2>
           <p className="mt-4 text-gray-300 text-base text-sm-justify sm:text-lg max-w-lg mx-auto lg:mx-0">
             Hello there! I'm Kvi, a 22-year-old developer, UI/UX designer and
