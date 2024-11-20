@@ -94,7 +94,7 @@ const Projects = () => {
                   </a>
 
                   <a
-                    href={project.link}
+                    href={project.link} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center px-4 py-2 mt-4 text-sm font-medium text-white bg-indigo-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none"
                   >
                     Read more
