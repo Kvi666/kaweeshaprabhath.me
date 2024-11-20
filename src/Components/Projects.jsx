@@ -1,6 +1,9 @@
 import React from "react";
-import ProjectImg from "../assets/tea.webp";
 import Project_01 from "../assets/keyword.webp"
+import Project_02 from "../assets/Iwodress.webp";
+import Project_03 from "../assets/Sindys.webp";
+import Project_04 from "../assets/Afron.webp";
+
 
 const Projects = () => {
   const projects = [
@@ -13,27 +16,27 @@ const Projects = () => {
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
     },
     {
-      imgSrc: ProjectImg,
-      title: "Project 01",
+      imgSrc: Project_02,
+      title: "IwoDress",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-      credit: "Credits: [Advirto Digital]",
-      link: "#",
+        "IwoDress crafts custom, elegant dresses tailored to individual style, bringing fashion dreams to life with quality and care.",
+      // credit: "Project Credits: [Advirto Digital]",
+      link: "https://www.iwodress.com/",
     },
     {
-      imgSrc: ProjectImg,
-      title: "Project 01",
+      imgSrc: Project_03,
+      title: "Sindy's Clothing",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-      credit: "Credits: [Advirto Digital]",
-      link: "#",
+        "Sindy's Clothing offers trendy, bold styles for a fashion-forward audience, blending quality with unique designs.",
+      // credit: "Project Credits: [Advirto Digital]",
+      link: "https://sindyss.com/",
     },
     {
-      imgSrc: ProjectImg,
-      title: "Project 01",
+      imgSrc: Project_04,
+      title: "Afron Success",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
-      credit: "Credits: [Advirto Digital]",
+        "Afron Success Academy empowers learners with courses designed to enhance personal and career growth.",
+      // credit: "Project Credits: [Advirto Digital]",
       link: "#",
     },
   ];
