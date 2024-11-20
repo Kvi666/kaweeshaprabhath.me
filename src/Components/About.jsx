@@ -1,7 +1,9 @@
 import React from "react";
 import Dp from "../assets/dp.webp";
+import CV from "../assets/Kaweesha_Prabhath.pdf"
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+
 
 import { BsDownload } from "react-icons/bs";
 
@@ -53,15 +55,6 @@ const About = () => {
           }}
         ></div>
       </div>
-      {/* <div
-        aria-hidden="true"
-        className="absolute inset-0 flex justify-center items-center opacity-10"
-      >
-        <h1 className="text-[20px] sm:text-[180px] font-extrabold text-blue-900 pr-6 sm:pr-20">
-          HI
-        </h1>
-      </div> */}
-
       <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12 max-w-7xl mx-auto">
         {/* Text Section */}
         <div className="lg:w-2/3 text-center lg:text-left px-4 md:px-0">
@@ -79,7 +72,9 @@ const About = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6">
             <button className="flex items-center gap-2 bg-indigo-600 hover:bg-blue-700 text-white  py-2 px-5 rounded-full shadow-md transition-all duration-300">
               <BsDownload className="text-lg" />
-              <p>Download CV</p>
+              <a href={CV} download="My_CV.pdf" className="btn" >
+                <p>Download CV</p>
+              </a>
             </button>
 
             {/* Social Icons */}
