@@ -1,9 +1,9 @@
 import React from "react";
-import Fiverr_Logo from "../assets/Fiverr-Logo.png";
-import Udemy_Logo from "../assets/Udemy.png";
-import Advirto_Logo from "../assets/Advirto.png";
-import Esupport_Logo from "../assets/Esupport.jpg";
-import Moratuwa_Logo from "../assets/Moratuwa.jpg";
+import Fiverr_Logo from "../assets/Fiverr-Logo.webp";
+import Udemy_Logo from "../assets/Udemy.webp";
+import Advirto_Logo from "../assets/Advirto.webp";
+import Esupport_Logo from "../assets/Esupport.webp";
+import Moratuwa_Logo from "../assets/Moratuwa.webp";
 
 const Resume = () => {
   return (

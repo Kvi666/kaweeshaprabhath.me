@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectImg from "../assets/tea.jpg";
-import Project_01 from "../assets/keyword.jpg"
+import ProjectImg from "../assets/tea.webp";
+import Project_01 from "../assets/keyword.webp"
 
 const Projects = () => {
   const projects = [

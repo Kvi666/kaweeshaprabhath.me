@@ -1,5 +1,5 @@
 import React from "react";
-import Dp from "../assets/dp.jpg";
+import Dp from "../assets/dp.webp";
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 

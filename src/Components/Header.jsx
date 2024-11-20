@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Dp from "../assets/dp.jpg";
-import Logo from "../assets/logo.png";
+import Dp from "../assets/dp.webp";
 import Typewriter from "./TypeWriter";
 
 const sections = [
