@@ -2,6 +2,7 @@
 body,
 html {
   scroll-behavior: smooth;
+  background-color: #111827;
 }
 
 h1 {
@@ -40,8 +41,4 @@ span {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-body {
-  overflow-x: hidden;
 }
