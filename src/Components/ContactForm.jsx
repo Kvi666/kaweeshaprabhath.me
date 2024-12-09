@@ -130,8 +130,9 @@ const ContactForm = () => {
 
                 {/* Footer */}
                 <div className="mt-8 w-full border-t border-gray-800 p-2 pt-8 text-center">
-                  <a href="mailto:example@email.com" className="">
-                    dev.kaweeshaprabhath@gmail.com
+                  <a href="mailto:contact@kaweeshaprabhath.me" className="">
+                    contact@kaweeshaprabhath.me
+
                   </a>
                 </div>
 
