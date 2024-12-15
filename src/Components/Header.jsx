@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
+
 import React, { useState, useEffect, useRef } from "react";
 import Dp from "../assets/dp.webp";
 import Typewriter from "./TypeWriter";
 
 const sections = [
   { id: "About", label: "About" },
-  { id: "Expertise", label: "Expertise" },
-  { id: "Resume", label: "Resume" },
-  { id: "Projects", label: "Projects" },
-  { id: "Contact", label: "Contact" },
+  { id: "Expertise", label: "Expertise", },
+  { id: "Resume", label: "Resume", },
+  { id: "Projects", label: "Projects", },
+  { id: "Contact", label: "Contact", },
 ];
 
 const Header = () => {
@@ -47,9 +49,7 @@ const Header = () => {
         className={`fixed z-40 top-0 left-0 w-96 h-full px-4 py-8 overflow-y-auto bg-white border-r dark:bg-gray-900 dark:border-gray-700 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
           } md:translate-x-0 transition-transform duration-200 ease-in-out`}
       >
-        {/* <a href="#" className="mx-auto ">
-          <img className="w-auto h-6 sm:h-7 mx-auto" src={Logo} alt="Logo" />
-        </a> */}
+
 
         <div className="flex flex-col items-center mt-6 -mx-2">
           <img
@@ -77,7 +77,7 @@ const Header = () => {
               {sections.map((section) => (
                 <li key={section.id}>
                   <a
-                    href={`#${section.id}`}
+                    href={`/#${section.id}`}
                     onClick={() => setIsOpen(false)} // Close the menu when a link is clicked
                     className={`flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group transition duration-300 ease-in-out ${activeSection === section.id
                       ? "bg-gray-100 dark:bg-gray-700 scale-105 shadow-lg"
