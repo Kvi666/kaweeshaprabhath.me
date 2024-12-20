@@ -129,7 +129,7 @@ const Resume = () => {
                         </div>
                         <div className="hover:bg-gray-800 hover:shadow-lg hover:shadow-gray-900 rounded-lg p-2 transition duration-300 ease-in-out">
                           <time className="block mb-1 text-xs sm:text-sm font-mono italic text-gray-400">
-                            2023 - Present
+                            2023 - 2024
                           </time>
                           <h5 className="text-base sm:text-md font-medium text-gray-200">
                             Senior Developer
