@@ -8,8 +8,6 @@ import {
   FaGithubSquare,
 } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-
-import { BsDownload } from "react-icons/bs";
 import Skills from "./Skills";
 
 const Hero = () => {
@@ -37,15 +35,8 @@ const Hero = () => {
 
               {/* Download CV Button */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6">
-                <button className="flex items-center gap-2 bg-indigo-600 hover:bg-blue-700 text-white  py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300">
-                  <BsDownload className="text-lg" />
-                  <a className="btn">
-                    <p>Download CV</p>
-                  </a>
-                </button>
-
                 {/* Social Icons */}
-                <div className="flex items-center gap-2 text-indigo-500 mt-4 sm:mt-0">
+                <div className="flex items-center gap-2 text-gray-500 mt-4 sm:mt-0">
                   <a
                     href="https://www.facebook.com/kaweeshaprabhathuduwilaarachchi"
                     target="_blank"
