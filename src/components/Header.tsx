@@ -30,19 +30,19 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="#Resume" className="hover:text-gray-400">
+            <Link href="/#Resume" className="hover:text-gray-400">
               Resume
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-gray-400">
+            <Link href="portfolio" className="hover:text-gray-400">
               Portfolio
             </Link>
           </li>
 
           <li>
-          <Link href="#Contact" className="hover:text-gray-400">
-          Contact
+            <Link href="/#Contact" className="hover:text-gray-400">
+              Contact
             </Link>
           </li>
         </ul>

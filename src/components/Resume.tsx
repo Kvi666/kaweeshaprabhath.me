@@ -57,7 +57,7 @@ const workExperienceData: Experience[] = [
 function Section({ title, data }: SectionProps) {
   return (
     <div className="space-y-6">
-      <div className="pb-5">
+      <div className="p-5">
         <span className="bg-slate-200 px-4 py-2 rounded-full">
           <span className="font-bold bg-gradient-to-r from-[#240CF2] to-[#00A9B5] bg-clip-text text-transparent">
             {title}
@@ -67,12 +67,12 @@ function Section({ title, data }: SectionProps) {
 
       {data.map((item, index) => (
         <div key={index}>
-          <hr className="h-px my-8 bg-gray-500 border-0" />
-          <div className="flex py-4">
-            <div className="w-1/4">
+          <hr className="h-px my-8 bg-gray-500 border-0 " />
+          <div className="flex flex-col md:flex-row py-4 px-4">
+            <div className="w-full md:w-1/4">
               <p className="text-lg text-gray-200">{item.date}</p>
             </div>
-            <div className="w-3/4">
+            <div className="w-full md:w-3/4">
               <p className="text-xl font-semibold text-gray-200">
                 {item.title}
               </p>
@@ -91,7 +91,7 @@ export default function Resume() {
   return (
     <div id="Resume" className="bg-gray-900 py-24">
       <div className="mx-auto max-w-[1200px]">
-        <p className="text-3xl sm:text-3xl font-bold text-gray-400 md:text-5xl mb-8">
+        <p className="text-3xl sm:text-3xl font-bold text-gray-400 md:text-5xl mb-8 px-5">
           Resume
         </p>
         <div className="space-y-16">
