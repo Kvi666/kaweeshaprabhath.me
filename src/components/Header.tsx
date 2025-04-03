@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
-
 import { FaBars, FaRegEnvelope, FaTimes } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -24,7 +22,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white p-4 shadow-xl">
       <nav className="max-w-[1200px] mx-auto flex justify-between items-center">
-        <h1>Kvi</h1>
+        <p className="text-5xl font-black">Kvi</p>
         <ul className="hidden lg:flex space-x-6 ">
           <li>
             <Link href="/" className="hover:text-gray-400">
