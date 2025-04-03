@@ -34,8 +34,8 @@ export default function Skills() {
     <div className="relative bg-gray-900 py-6 text-white">
       <div className="container mx-auto relative max-w-[1250px]">
         {/* Left and Right Fade Effect */}
-        <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-gray-900 to-transparent pointer-events-none z-50"></div>
-        <div className="absolute top-0 right-0 w-20 h-full bg-gradient-to-l from-gray-900 to-transparent pointer-events-none z-50"></div>
+        <div className="absolute top-0 left-0 w-20 h-full bg-gradient-to-r from-gray-900 to-transparent pointer-events-none z-40"></div>
+        <div className="absolute top-0 right-0 w-20 h-full bg-gradient-to-l from-gray-900 to-transparent pointer-events-none z-40"></div>
 
         <Carousel
           opts={{
