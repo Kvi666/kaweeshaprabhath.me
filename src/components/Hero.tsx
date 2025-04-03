@@ -15,7 +15,7 @@ const Hero = () => {
     <div className="min-h-screen bg-gray-900">
       <section
         id="About"
-        className="relative isolate py-12 md:pt-24 overflow-hidden  min-h-[80vh] flex flex-col justify-center "
+        className="relative isolate py-12 md:pt-24 overflow-hidden  min-h-[80vh] flex flex-col justify-center pt-24"
       >
         <div className="max-w-[1200px] mx-auto">
           <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between gap-8 md:gap-12  ">

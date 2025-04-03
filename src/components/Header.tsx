@@ -85,7 +85,17 @@ const Header = () => {
                 className="hover:text-gray-400"
                 onClick={toggleMenu}
               >
-                Home
+                About
+              </Link>
+              <hr />
+            </li>
+            <li>
+              <Link
+                href="/#Resume"
+                className="hover:text-gray-400"
+                onClick={toggleMenu}
+              >
+                Resume
               </Link>
               <hr />
             </li>
@@ -101,27 +111,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/services"
-                className="hover:text-gray-400"
-                onClick={toggleMenu}
-              >
-                Services
-              </Link>
-              <hr />
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="hover:text-gray-400"
-                onClick={toggleMenu}
-              >
-                About
-              </Link>
-              <hr />
-            </li>
-            <li>
-              <Link
-                href="/contact"
+                href="/#contact"
                 className="hover:text-gray-400"
                 onClick={toggleMenu}
               >
