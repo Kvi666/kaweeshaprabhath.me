@@ -11,13 +11,7 @@ const Contact = () => {
         <div className="container mx-auto px-5 py-16">
           <div className="mb-12 flex w-full flex-col text-center">
             {/* Heading */}
-            <div
-              aria-hidden="true"
-              className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
-            >
-              <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
-              <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
-            </div>
+            
             <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">
               Contact Me
             </h1>
