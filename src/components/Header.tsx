@@ -104,7 +104,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/projects"
+                href="/portfolio"
                 className="hover:text-gray-400"
                 onClick={toggleMenu}
               >
