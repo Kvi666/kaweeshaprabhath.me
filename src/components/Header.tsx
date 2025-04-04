@@ -69,12 +69,12 @@ const Header = () => {
 
       {/* Mobile Sliding Sidebar - Right to Left */}
       <div
-        className={`fixed top-0 right-0 h-full md:w-[40%] w-[80%]  bg-gray-900 border-l-2 border-blue-400 text-white transform ${
+        className={`fixed top-0 right-0 h-full md:w-[40%] w-[80%]  bg-gray-900 border-l-2 border-gray-700 text-white transform ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out shadow-lg z-50 overflow-y-auto`}
       >
         <div className="p-4 flex justify-between items-center ">
-          <h1>Kvi</h1>
+          <p className="text-4xl font-black">Kvi</p>
           <FaTimes
             className="text-white bg-gray-700 rounded-full  p-2  text-4xl"
             onClick={toggleMenu}

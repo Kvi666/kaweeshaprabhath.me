@@ -67,7 +67,7 @@ function Section({ title, data }: SectionProps) {
 
       {data.map((item, index) => (
         <div key={index}>
-          <hr className="h-px my-8 bg-gray-500 border-0 " />
+          <hr className="h-px my-8 bg-gray-500 border-0 md:w-full w-[90%] mx-auto" />
           <div className="flex flex-col md:flex-row py-4 px-4">
             <div className="w-full md:w-1/4">
               <p className="text-lg text-gray-200">{item.date}</p>
@@ -89,7 +89,7 @@ function Section({ title, data }: SectionProps) {
 
 export default function Resume() {
   return (
-    <div id="Resume" className="bg-gray-900 py-24">
+    <div id="Resume" className="bg-gray-900 py-5 md:py-24">
       <div className="mx-auto max-w-[1200px]">
         <p className="text-3xl sm:text-3xl font-bold text-gray-400 md:text-5xl mb-8 px-5">
           Resume
