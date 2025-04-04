@@ -36,7 +36,7 @@ const Hero = () => {
               {/* Download CV Button */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6">
                 {/* Social Icons */}
-                <div className="flex items-center gap-2 text-gray-500 mt-4 sm:mt-0">
+                <div className="hidden md:flex items-center gap-2 text-gray-500 mt-4 sm:mt-0  ">
                   <a
                     href="https://www.facebook.com/kaweeshaprabhathuduwilaarachchi"
                     target="_blank"
@@ -69,12 +69,6 @@ const Hero = () => {
 
               {/* Stats Section */}
               <div className="relative z-10 flex justify-center lg:justify-start mt-4 sm:mt-8 gap-6 sm:gap-12 text-center lg:text-left">
-                <div>
-                  <h3 className="text-3xl sm:text-4xl font-bold text-white">
-                    5+
-                  </h3>
-                  <p className="text-gray-400 text-xs sm:text-sm">Countries</p>
-                </div>
                 <div>
                   <h3 className="text-3xl sm:text-4xl font-bold text-white">
                     30+

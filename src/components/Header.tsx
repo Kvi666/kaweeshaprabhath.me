@@ -2,15 +2,18 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { FaBars, FaRegEnvelope, FaTimes } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaBars,
+  FaFacebookSquare,
+  FaGithubSquare,
+  FaLinkedin,
+  FaTimes,
+} from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-import { FaClock } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -66,19 +69,19 @@ const Header = () => {
 
       {/* Mobile Sliding Sidebar - Right to Left */}
       <div
-        className={`fixed top-0 right-0 h-full md:w-[40%] w-[80%]  bg-[#ffffff] border-l-2 border-[#9a4aaa] text-white transform ${
+        className={`fixed top-0 right-0 h-full md:w-[40%] w-[80%]  bg-gray-900 border-l-2 border-blue-400 text-white transform ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out shadow-lg z-50 overflow-y-auto`}
       >
         <div className="p-4 flex justify-between items-center ">
           <h1>Kvi</h1>
           <FaTimes
-            className="text-white bg-[#9a4aaa] rounded-full  p-2  text-4xl"
+            className="text-white bg-gray-700 rounded-full  p-2  text-4xl"
             onClick={toggleMenu}
           />
         </div>
         <div className="p-4">
-          <ul className="space-y-5 text-black font-medium">
+          <ul className="space-y-5 text-gray-300 font-medium">
             <li>
               <Link
                 href="/"
@@ -121,34 +124,48 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="text-black space-y-5 px-5 ">
+        <div className="text-gray-200 space-y-5 px-5 ">
           <p className=" font-semibold text-2xl ">Contact Info</p>
+
           <div className="flex items-center gap-5">
-            <FaMapMarkerAlt className="text-[#9a4aaa]" />
-            <p>Main Street, Melbourne</p>
+            <FaEnvelope className="text-gray-500" />
+            <p>dev@kaweeshaprabhath.me</p>
           </div>
+
           <div className="flex items-center gap-5">
-            <FaEnvelope className="text-[#9a4aaa]" />
-            <p>contact@unleash.lk</p>
-          </div>
-          <div className="flex items-center gap-5">
-            <FaClock className="text-[#9a4aaa]" />
-            <p>Mon-Friday, 09am - 05pm</p>
-          </div>
-          <div className="flex items-center gap-5">
-            <FaPhoneAlt className="text-[#9a4aaa]" />
-            <p>+94 77 464 9914</p>
+            <FaPhoneAlt className="text-gray-500" />
+            <p>+94 70 2585 455</p>
           </div>
         </div>
         <div className="p-5">
-          <button className="bg-[#9a4aaa] py-3 px-5 rounded-full">
+          <button className="bg-gray-700 py-3 px-5 rounded-full">
             GET A QUOTE
           </button>
-          <div className="flex pt-5 gap-2">
-            <FaFacebookF className="border text-4xl p-2 rounded-full border-black text-black" />
-            <FaInstagram className="border text-4xl p-2 rounded-full border-black text-black" />
-            <FaWhatsapp className="border text-4xl p-2 rounded-full border-black text-black" />
-            <FaRegEnvelope className="border text-4xl p-2 rounded-full border-black text-black" />
+          <div className="flex items-center gap-2 text-gray-500 mt-4 sm:mt-0  ">
+            <a
+              href="https://www.facebook.com/kaweeshaprabhathuduwilaarachchi"
+              target="_blank"
+            >
+              <FaFacebookSquare className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kaweesha-prabhath-989305314/"
+              target="_blank"
+            >
+              <FaLinkedin className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
+            </a>
+            <a href="https://github.com/Kvi666" target="_blank">
+              <FaGithubSquare className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
+            </a>
+            <a href="https://www.instagram.com/kvi69.exe/" target="_blank">
+              <FaInstagram className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=94702585455"
+              target="_blank"
+            >
+              <IoLogoWhatsapp className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
+            </a>
           </div>
         </div>
       </div>
