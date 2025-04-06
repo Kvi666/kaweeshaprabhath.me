@@ -109,6 +109,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
       <div>
         <Skills />
       </div>

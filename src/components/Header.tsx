@@ -50,7 +50,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="hidden lg:flex items-center gap-10">
-          <button className="flex items-center gap-2 bg-gray-800 hover:bg-blue-700 text-white  py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300">
+          <button className="flex items-center gap-2 bg-gray-800 hover:bg-blue-600 text-white  py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300">
             <BsDownload className="text-lg" />
             <a className="btn">
               <p>Download CV</p>
@@ -81,7 +81,7 @@ const Header = () => {
           />
         </div>
         <div className="p-4">
-          <ul className="space-y-5 text-gray-300 font-medium">
+          <ul className="space-y-5 text-gray-300 font-medium text-center">
             <li>
               <Link
                 href="/"
@@ -90,7 +90,7 @@ const Header = () => {
               >
                 About
               </Link>
-              <hr />
+              <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-700 to-transparent " />
             </li>
             <li>
               <Link
@@ -100,7 +100,7 @@ const Header = () => {
               >
                 Resume
               </Link>
-              <hr />
+              <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-700 to-transparent " />
             </li>
             <li>
               <Link
@@ -110,7 +110,7 @@ const Header = () => {
               >
                 Projects
               </Link>
-              <hr />
+              <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-700 to-transparent " />
             </li>
             <li>
               <Link
@@ -120,7 +120,7 @@ const Header = () => {
               >
                 Contact
               </Link>
-              <hr />
+              <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-700 to-transparent " />
             </li>
           </ul>
         </div>
