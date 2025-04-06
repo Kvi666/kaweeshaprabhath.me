@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Resume from "@/components/Resume";
-import Test from "@/components/ContactForm";
+import Contact from "@/components/Contact";
 import React from "react";
 
 export default function page() {
@@ -8,7 +8,7 @@ export default function page() {
     <div>
       <Hero />
       <Resume />
-      <Test />
+      <Contact />
     </div>
   );
 }
