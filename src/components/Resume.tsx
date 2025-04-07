@@ -67,7 +67,7 @@ function Section({ title, data }: SectionProps) {
 
       {data.map((item, index) => (
         <div key={index}>
-          <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-gray-600 to-transparent my-12" />
+          <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-gray-600 to-transparent my-2 md:my-10" />
           <div className="flex flex-col md:flex-row py-4 px-4">
             <div className="w-full md:w-1/4">
               <p className="text-lg text-gray-200">{item.date}</p>
