@@ -89,11 +89,17 @@ function Section({ title, data }: SectionProps) {
 
 export default function Resume() {
   return (
-    <div id="Resume" className="bg-gray-900 py-5 md:py-24">
+    <div id="Resume" className="bg-gray-900 py-5 md:py-10">
       <div className="mx-auto max-w-[1200px]">
-        <p className="text-3xl sm:text-3xl font-bold text-gray-400 md:text-5xl mb-8 px-5">
-          Resume
-        </p>
+        <div className="md:w-2/3 lg:w-1/2 my-12  text-gray-100">
+          <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
+            Resume
+          </h2>
+
+          <p className="text-gray-300">
+            We have built many products, and some of them are showcased below.
+          </p>
+        </div>
         <div className="space-y-16">
           <Section title="Education" data={educationData} />
           <Section title="Work Experience" data={workExperienceData} />
