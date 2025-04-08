@@ -42,7 +42,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/portfolio" className="hover:text-gray-400">
+            <Link href="/#Portfolio" className="hover:text-gray-400">
               Portfolio
             </Link>
           </li>
@@ -134,7 +134,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/portfolio"
+                  href="/#Portfolio"
                   onClick={() => handleLinkClick("Portfolio")}
                   className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group transition duration-300 ease-in-out"
                 >

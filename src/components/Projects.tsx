@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Projects = () => {
+const Portfolio = () => {
   const projects = [
     {
       imgSrc: "/project.webp",
@@ -34,8 +34,11 @@ const Projects = () => {
   ];
 
   return (
-    <div id="Projects" className="bg-gray-900 py-10">
-      <div className="max-w-[1200px] mx-auto">
+    <div
+      id="Portfolio"
+      className="relative isolate overflow-hidden bg-gray-800 "
+    >
+      <div className="p-8 min-h-screen">
         <div
           aria-hidden="true"
           className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
@@ -43,8 +46,8 @@ const Projects = () => {
           <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
           <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
         </div>
-        <div className="">
-          <div className="md:w-2/3 lg:w-1/2 my-12  text-gray-100">
+        <div className="max-w-7xl mx-auto md:px-12 xl:px-8">
+          <div className="md:w-2/3 lg:w-1/2 my-12 md:mt-24 text-gray-100">
             <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
               Projects
             </h2>
@@ -54,7 +57,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             {projects.map((project, index) => (
               <div
                 key={index}
@@ -91,10 +94,16 @@ const Projects = () => {
               </div>
             ))}
           </div>
+          <a
+            href="/portfolio"
+            className="flex w-fit items-center gap-2 bg-gray-800 hover:bg-blue-600 text-white py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300 mt-10 mx-auto"
+          >
+            <p>See All Projects</p>
+          </a>
         </div>
       </div>
     </div>
   );
 };
 
-export default Projects;
+export default Portfolio;
