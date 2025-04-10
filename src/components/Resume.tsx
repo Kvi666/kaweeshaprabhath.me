@@ -106,10 +106,10 @@ export default function Resume() {
   return (
     <div id="Resume" className="bg-gray-900 py-5 md:py-10">
       <div className="mx-auto max-w-[1200px]">
-        <div className="md:w-2/3 lg:w-1/2 my-12  text-gray-100">
-          <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
+        <div className="md:w-2/3 lg:w-1/2 my-12  text-gray-100 px-4">
+          <p className="text-3xl font-bold text-white md:text-4xl mb-4">
             Resume
-          </h2>
+          </p>
 
           <p className="text-gray-300">
             A snapshot of my career, from internships to freelance work with
