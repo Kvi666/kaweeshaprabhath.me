@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaWordpress, FaPython } from "react-icons/fa"; // Add more icons as needed
+import { FaWordpress, FaPython } from "react-icons/fa";
 
 const Projects = () => {
   const projects = [
@@ -11,7 +11,7 @@ const Projects = () => {
       description:
         "A Python script that automates the process of scanning multiple web pages for a specific keyword. It extracts the content of each URL, analyzes it, and reports whether the keyword is present, making it a useful tool for SEO research and content analysis.",
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
-      icon: FaPython, // Icon for Python
+      icon: FaPython,
     },
     {
       imgSrc: "/projects/rfr.webp",
@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "rfrma.com is a comprehensive digital marketing platform offering services to help businesses grow their online presence. The site is built with a focus on user experience, utilizing WordPress for content management and a modern design to engage visitors effectively.",
       link: "https://rfrma.com/",
-      icon: FaWordpress, // Icon for WordPress
+      icon: FaWordpress,
     },
     {
       imgSrc: "/projects/chamee.webp",
@@ -29,7 +29,7 @@ const Projects = () => {
       description:
         "Chameeth.com is an interactive platform for book lovers. It offers a wide variety of genres, personalized recommendations, and a user-friendly design, making it an ideal space for readers to discover new books. The website is built on WordPress, ensuring easy content updates and management.",
       link: "https://chameeth.com/",
-      icon: FaWordpress, // Icon for WordPress
+      icon: FaWordpress,
     },
     {
       imgSrc: "/projects/rock_inn.webp",
@@ -38,7 +38,7 @@ const Projects = () => {
       description:
         "RockInnWaterRow.com is a beautifully designed website for a riverside inn that offers a serene getaway with stunning views, cozy accommodations, and exceptional dining. The site captures the essence of the inn's experience, making it easy for visitors to book their stay and explore the amenities.",
       link: "https://rockinnwaterrow.com/",
-      icon: FaWordpress, // Icon for WordPress
+      icon: FaWordpress,
     },
   ];
 
@@ -47,7 +47,7 @@ const Projects = () => {
       id="Portfolio"
       className="relative isolate overflow-hidden bg-gray-900"
     >
-      <div className="p-8 min-h-screen">
+      <div className="min-h-screen max-w-[1200px] mx-auto px-4">
         <div
           aria-hidden="true"
           className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
@@ -55,11 +55,11 @@ const Projects = () => {
           <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-blue-700"></div>
           <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-indigo-600"></div>
         </div>
-        <div className="max-w-7xl mx-auto md:px-12 xl:px-8">
+        <div className="mx-auto">
           <div className="md:w-2/3 lg:w-1/2 my-12 md:mt-24 text-gray-100">
-            <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
+            <p className="text-3xl font-bold text-white md:text-4xl mb-4">
               Projects
-            </h2>
+            </p>
             <p className="text-gray-300">
               We have built many products, and some of them are showcased below.
             </p>
@@ -92,9 +92,9 @@ const Projects = () => {
                       </p>
                     </div>
                   </a>
-                    <p className="text-gray-300  mt-2 text-justify">
-                      {project.description}
-                    </p> 
+                  <p className="text-gray-300  mt-2 text-justify">
+                    {project.description}
+                  </p>
                 </div>
               </div>
             ))}
