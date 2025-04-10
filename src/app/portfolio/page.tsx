@@ -183,9 +183,9 @@ const Portfolio = () => {
         </div>
         <div className="max-w-7xl mx-auto md:px-12 xl:px-8">
           <div className="md:w-2/3 lg:w-1/2 my-12 md:mt-24 text-gray-100">
-            <h2 className="text-3xl font-bold text-white md:text-4xl mb-4">
+            <p className="text-3xl font-bold text-white md:text-4xl mb-4">
               Projects
-            </h2>
+            </p>
             <p className="text-gray-300">
               We have built many products, and some of them are showcased below.
             </p>
@@ -197,7 +197,7 @@ const Portfolio = () => {
                 key={index}
                 className="group bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 overflow-hidden"
               >
-                <a href={project.link}>
+                <a href={project.link} target="_blank">
                   <Image
                     className="w-full object-cover"
                     src={project.imgSrc}
@@ -207,11 +207,11 @@ const Portfolio = () => {
                   />
                 </a>
                 <div className="p-4 sm:p-6">
-                  <a href={project.link}>
+                  <a href={project.link} target="_blank">
                     <div className="flex justify-between">
-                      <h5 className="text-lg font-semibold text-gray-900 dark:text-white transition-colors group-hover:text-secondary flex gap-2">
-                        <a href={project.link}>{project.title}</a>
-                      </h5>
+                      <p className="text-lg font-semibold text-gray-900 dark:text-white transition-colors group-hover:text-secondary flex gap-2">
+                        {project.title}
+                      </p>
                       <p className="text-white bg-gray-600 w-fit rounded-full px-2 my-auto flex gap-2">
                         {/* Dynamically render the icon */}
                         <project.icon className="my-auto" />
