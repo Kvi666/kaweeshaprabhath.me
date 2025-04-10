@@ -71,7 +71,7 @@ const Projects = () => {
                 key={index}
                 className="group bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 overflow-hidden"
               >
-                <a href={project.link}>
+                <a href={project.link} target="_blank">
                   <Image
                     className="w-full object-cover"
                     src={project.imgSrc}
@@ -81,11 +81,11 @@ const Projects = () => {
                   />
                 </a>
                 <div className="p-4 sm:p-6">
-                  <a href={project.link}>
+                  <a href={project.link} target="_blank">
                     <div className="flex justify-between">
-                      <h5 className="text-lg font-semibold text-gray-300  transition-colors group-hover:text-secondary flex gap-2">
+                      <p className="text-lg font-semibold text-gray-300  transition-colors group-hover:text-secondary flex gap-2">
                         {project.title}
-                      </h5>
+                      </p>
                       <p className="text-gray-300  bg-gray-600 w-fit rounded-full px-2 my-auto flex gap-2">
                         <project.icon className="my-auto" />
                         {project.tech}
