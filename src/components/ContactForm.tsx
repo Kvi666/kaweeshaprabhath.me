@@ -9,8 +9,8 @@ const ContactForm = () => {
               Contact Me
             </h1>
             <p className="mx-auto">
-              Feel free to reach out to us! Whether you have a question,
-              feedback, or a collaboration proposal, wed love to hear from you.
+              Feel free to reach out! Whether you have a question,
+              feedback, or a collaboration proposal.
             </p>
           </div>
 
