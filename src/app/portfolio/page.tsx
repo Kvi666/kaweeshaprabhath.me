@@ -102,12 +102,6 @@ const Portfolio = () => {
               </div>
             ))}
           </div>
-          <a
-            href="/portfolio"
-            className="flex w-fit items-center gap-2 bg-gray-800 hover:bg-blue-600 text-white py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300 mt-10 mx-auto"
-          >
-            <p>See All Projects</p>
-          </a>
         </div>
       </div>
     </div>
