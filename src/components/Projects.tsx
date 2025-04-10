@@ -4,28 +4,28 @@ import Image from "next/image";
 const Portfolio = () => {
   const projects = [
     {
-      imgSrc: "/project.webp",
+      imgSrc: "/projects/keyword.png",
       title: "Keyword Finder in Web Pages",
       description:
         "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
     },
     {
-      imgSrc: "/project.webp",
+      imgSrc: "/projects/tea.webp",
+      title: "Keyword Finder in Web Pages",
+      description:
+        "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
+      link: "#",
+    },
+    {
+      imgSrc: "/projects/amj.webp",
       title: "Keyword Finder in Web Pages",
       description:
         "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
     },
     {
-      imgSrc: "/project.webp",
-      title: "Keyword Finder in Web Pages",
-      description:
-        "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
-      link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
-    },
-    {
-      imgSrc: "/project.webp",
+      imgSrc: "/projects/rock_inn.webp",
       title: "Keyword Finder in Web Pages",
       description:
         "A Python script that scans a list of URLs to check for the presence of a specific keyword.",
@@ -36,7 +36,7 @@ const Portfolio = () => {
   return (
     <div
       id="Portfolio"
-      className="relative isolate overflow-hidden bg-gray-800 "
+      className="relative isolate overflow-hidden bg-gray-900 "
     >
       <div className="p-8 min-h-screen">
         <div
@@ -61,11 +61,11 @@ const Portfolio = () => {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="group bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden"
+                className="group bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-900 dark:border-gray-700 overflow-hidden"
               >
                 <a href={project.link}>
                   <Image
-                    className="w-full h-48 object-cover"
+                    className="w-full  object-cover"
                     src={project.imgSrc}
                     alt={project.title}
                     width={500}

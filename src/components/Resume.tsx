@@ -4,6 +4,7 @@ import React from "react";
 interface Experience {
   date: string;
   title: string;
+  company?: string; // Added company as optional
   description: string;
 }
 
@@ -35,22 +36,33 @@ const educationData: Experience[] = [
 
 const workExperienceData: Experience[] = [
   {
-    date: "2023 - 2024",
-    title: "Senior Developer",
+    date: "December 2023 - June 2024",
+    title: "Lead Developer",
+    company: "Advirto Digital",
     description:
-      "Senior Developer at Advirto Digital, leading web development projects, managing a team, and optimizing workflows to ensure high-quality, on-time delivery.",
+      "Started as an intern at Advirto Digital and quickly transitioned into a Lead Developer role. Focused on WordPress-based solutions, led multiple client projects, developed custom themes and plugins.",
   },
+
   {
-    date: "July 2020 - February 2022",
+    date: "July 2024 - January 2025",
     title: "Associate Software Engineer",
+    company: "Ceylon Ventures Pty Ltd",
     description:
-      "Working as an Associate Software Engineer at eSupport Technologies, responsible for developing and maintaining software applications. Collaborating with teams to design, implement, and optimize solutions, ensuring efficient functionality and a seamless user experience.",
+      "Joined as an Associate Software Engineer, working on the development and maintenance of web and software applications. Gained hands-on experience with full-stack development, collaborating closely with cross-functional teams to deliver effective tech solutions.",
   },
   {
-    date: "July 2020 - February 2022",
-    title: "Freelancer",
+    date: "February 2022 - Present",
+    title: "Associate Software Engineer",
+    company: "Aurora 365",
     description:
-      "Providing freelance web development services on Fiverr, specializing in custom websites and e-commerce platforms. Managing client projects end-to-end, from requirements gathering to deployment and support.c",
+      "Currently working as an Associate Software Engineer at Aurora 365, contributing to ongoing software development projects. Collaborating with teams to build efficient, user-friendly applications while continuing to grow and refine my skill set.",
+  },
+  {
+    date: "2020 - Present",
+    title: "Freelance Developer",
+    company: "Self-employed",
+    description:
+      "Providing freelance web development services for a diverse range of clients — including local businesses, international clients, and Fiverr customers. Specializing in WordPress and custom web solutions, handling everything from project scoping and design to development, deployment, and post-launch support.",
   },
 ];
 
@@ -76,6 +88,9 @@ function Section({ title, data }: SectionProps) {
               <p className="text-xl font-semibold text-gray-200">
                 {item.title}
               </p>
+              {item.company && (
+                <p className="text-md text-sky-500 mb-1">{item.company}</p>
+              )}
               <p className="text-gray-400 text-base text-justify sm:text-lg mx-auto lg:mx-0">
                 {item.description}
               </p>
@@ -97,7 +112,8 @@ export default function Resume() {
           </h2>
 
           <p className="text-gray-300">
-            We have built many products, and some of them are showcased below.
+            A snapshot of my career, from internships to freelance work with
+            diverse clients.
           </p>
         </div>
         <div className="space-y-16">

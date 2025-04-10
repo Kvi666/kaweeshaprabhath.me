@@ -25,12 +25,15 @@ const Hero = () => {
                 Hello Im Kaweesha
               </h2>
               <p className="mt-4 text-gray-300 text-base text-justify sm:text-lg max-w-2xl mx-auto lg:mx-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit-
-                amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                I&apos;m Kvi, a 22 years old developer with a passion for
+                building cool things and constantly learning along the way.
+                I&apos;ve always been curious about how things work, which
+                naturally led me into the world of tech and creativity. Whether
+                I&apos;m working on a new idea, exploring something I&apos;ve
+                never tried before, or just refining my skills, I love the
+                process of turning thoughts into real, meaningful things.
+                I&apos;m big on growth, good energy, and doing work that
+                actually feels exciting.
               </p>
 
               {/* Download CV Button */}
@@ -71,7 +74,7 @@ const Hero = () => {
               <div className="relative z-10 flex justify-center lg:justify-start mt-4 sm:mt-8 gap-6 sm:gap-12 text-center lg:text-left">
                 <div>
                   <h3 className="text-3xl sm:text-4xl font-bold text-white">
-                    30+
+                    100+
                   </h3>
                   <p className="text-gray-400 text-xs sm:text-sm">
                     Projects Completed
@@ -79,7 +82,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <h3 className="text-3xl sm:text-4xl font-bold text-white">
-                    20+
+                    50+
                   </h3>
                   <p className="text-gray-400 text-xs sm:text-sm">
                     Happy Clients
@@ -87,7 +90,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <h3 className="text-3xl sm:text-4xl font-bold text-white">
-                    6+
+                    5+
                   </h3>
                   <p className="text-gray-400 text-xs sm:text-sm">
                     Years of Experience
