@@ -29,7 +29,9 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white p-4 shadow-xl">
       <nav className="max-w-[1200px] mx-auto flex justify-between items-center">
-        <p className="text-5xl font-black">Kvi</p>
+        <Link href="/">
+          <p className="text-5xl font-black">Kvi</p>
+        </Link>
         <ul className="hidden lg:flex space-x-6">
           <li>
             <Link href="/" className="hover:text-gray-400">
