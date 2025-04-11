@@ -61,7 +61,7 @@ const Projects = () => {
               Projects
             </p>
             <p className="text-gray-300">
-              We have built many products, and some of them are showcased below.
+              I have built many products, and some of them are showcased below.
             </p>
           </div>
 

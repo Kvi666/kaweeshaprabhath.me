@@ -40,7 +40,7 @@ const workExperienceData: Experience[] = [
     title: "Lead Developer",
     company: "Advirto Digital",
     description:
-      "Started as an intern at Advirto Digital and quickly transitioned into a Lead Developer role. Focused on WordPress-based solutions, led multiple client projects, developed custom themes and plugins.",
+      "Started as an intern at Advirto Digital focused on WordPress-based solutions, led multiple client projects, developed custom themes and plugins.",
   },
 
   {
@@ -51,7 +51,7 @@ const workExperienceData: Experience[] = [
       "Joined as an Associate Software Engineer, working on the development and maintenance of web and software applications. Gained hands-on experience with full-stack development, collaborating closely with cross-functional teams to deliver effective tech solutions.",
   },
   {
-    date: "February 2022 - Present",
+    date: "February 2025 - Present",
     title: "Associate Software Engineer",
     company: "Aurora 365",
     description:
