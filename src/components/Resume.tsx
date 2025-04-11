@@ -4,7 +4,7 @@ import React from "react";
 interface Experience {
   date: string;
   title: string;
-  company?: string; // Added company as optional
+  company?: string;
   description: string;
 }
 

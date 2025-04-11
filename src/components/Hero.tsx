@@ -56,7 +56,7 @@ const Hero = () => {
                     <FaGithubSquare className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
                   </a>
                   <a
-                    href="https://www.instagram.com/kvi69.exe/"
+                    href="https://www.instagram.com/kvi.dev/"
                     target="_blank"
                   >
                     <FaInstagram className="text-2xl md:text-3xl cursor-pointer hover:text-blue-500 transition duration-300" />
