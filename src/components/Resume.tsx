@@ -37,7 +37,7 @@ const educationData: Experience[] = [
 const workExperienceData: Experience[] = [
   {
     date: "December 2023 - June 2024",
-    title: "Lead Developer",
+    title: "Intern Developer",
     company: "Advirto Digital",
     description:
       "Started as an intern at Advirto Digital focused on WordPress-based solutions, led multiple client projects, developed custom themes and plugins.",
