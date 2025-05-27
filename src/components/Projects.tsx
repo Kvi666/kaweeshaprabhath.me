@@ -12,6 +12,15 @@ const Projects = () => {
         "A Python script that automates the process of scanning multiple web pages for a specific keyword. It extracts the content of each URL, analyzes it, and reports whether the keyword is present, making it a useful tool for SEO research and content analysis.",
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
       icon: FaPython,
+    }, 
+    {
+      imgSrc: "/projects/tea.webp",
+      title: "Three Flavours",
+      tech: "WordPress",
+      description:
+        "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
+      link: "https://3flavoursauthentic.com/",
+      icon: FaWordpress,
     },
     {
       imgSrc: "/projects/rfr.webp",
@@ -22,6 +31,7 @@ const Projects = () => {
       link: "https://rfrma.com/",
       icon: FaWordpress,
     },
+    
     {
       imgSrc: "/projects/chamee.webp",
       title: "chameeth.com",
@@ -31,15 +41,7 @@ const Projects = () => {
       link: "https://chameeth.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/rock_inn.webp",
-      title: "rockinnwaterrow.com",
-      tech: "WordPress",
-      description:
-        "RockInnWaterRow.com is a beautifully designed website for a riverside inn that offers a serene getaway with stunning views, cozy accommodations, and exceptional dining. The site captures the essence of the inn's experience, making it easy for visitors to book their stay and explore the amenities.",
-      link: "https://rockinnwaterrow.com/",
-      icon: FaWordpress,
-    },
+    
   ];
 
   return (

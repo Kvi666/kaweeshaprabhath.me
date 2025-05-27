@@ -25,15 +25,10 @@ const Hero = () => {
                 Hello Im Kaweesha
               </h2>
               <p className="mt-4 text-gray-300 text-base text-justify sm:text-lg max-w-2xl mx-auto lg:mx-0">
-                I&apos;m Kvi, a 22 years old developer with a passion for
-                building cool things and constantly learning along the way.
-                I&apos;ve always been curious about how things work, which
-                naturally led me into the world of tech and creativity. Whether
-                I&apos;m working on a new idea, exploring something I&apos;ve
-                never tried before, or just refining my skills, I love the
-                process of turning thoughts into real, meaningful things.
-                I&apos;m big on growth, good energy, and doing work that
-                actually feels exciting.
+           
+                A 22-year-old software engineering undergraduate with a passion for building meaningful and creative digital experiences. Driven by curiosity, 
+                I love exploring how things work and enjoy turning ideas into real-world solutions. Whether I'm diving into new technologies or refining my current skills, 
+               I&apos;m always focused on growth, positive energy, and creating work that feels exciting and impactful.
               </p>
 
               {/* Download CV Button */}

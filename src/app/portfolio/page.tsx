@@ -13,6 +13,15 @@ const Portfolio = () => {
       link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
       icon: FaPython,
     },
+     {
+      imgSrc: "/projects/tea.webp",
+      title: "Three Flavours",
+      tech: "WordPress",
+      description:
+        "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
+      link: "https://3flavoursauthentic.com/",
+      icon: FaWordpress,
+    },
     {
       imgSrc: "/projects/rfr.webp",
       title: "rfrma.com",
@@ -31,16 +40,71 @@ const Portfolio = () => {
       link: "https://chameeth.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/rock_inn.webp",
-      title: "rockinnwaterrow.com",
+   {
+      imgSrc: "/projects/gallage.webp",
+      title: "Gallage Construction",
       tech: "WordPress",
       description:
-        "RockInnWaterRow.com is a beautifully designed website for a riverside inn that offers a serene getaway with stunning views, cozy accommodations, and exceptional dining. The site captures the essence of the inn's experience, making it easy for visitors to book their stay and explore the amenities.",
-      link: "https://rockinnwaterrow.com/",
+        "Gallage Construction specializes in high-quality bathroom renovations, floor tiling, and plumbing services. They combine technical expertise with a commitment to craftsmanship, delivering top-tier results on every project.",
+      link: "https://gallageconstruction.lk/",
+      icon: FaWordpress,
+    },
+   {
+      imgSrc: "/projects/natural_lanka.webp",
+      title: "Natural Lanka",
+      tech: "WordPress",
+      description:
+        "Natural Lanka offers a wide range of organic and natural beauty products designed to promote a healthier and more sustainable lifestyle. Their products are carefully crafted to provide a luxurious experience with the benefit of natural ingredients.",
+      link: "https://natural-lanka.com/",
       icon: FaWordpress,
     },
     {
+      imgSrc: "/projects/amj.webp",
+      title: "AMJ Trading",
+      tech: "WordPress",
+      description:
+        "AMJ Trading specializes in providing high-quality equipment and comprehensive services tailored to fuel stations and service centers. Their offerings are designed to meet the specific needs of professionals in the industry.",
+      link: "https://amjtradingsolutions.com/",
+      icon: FaWordpress,
+    },
+    // {
+    //   imgSrc: "/projects/api_flora.webp",
+    //   title: "Api Flora",
+    //   tech: "WordPress",
+    //   description:
+    //     "Api Flora offers premium, hand-picked floral arrangements that cater to all occasions. Their flower shop is dedicated to delivering fresh, vibrant blooms that express emotions and beauty in the most elegant way possible.",
+    //   link: "https://apiflora.lk/",
+    //   icon: FaWordpress,
+    // },
+    {
+      imgSrc: "/projects/aura_sushi.webp",
+      title: "Aura Sushi",
+      tech: "WordPress",
+      description:
+        "Aura Sushi delivers an exquisite dining experience combining traditional sushi with modern culinary techniques. Whether you're craving sushi or grilled delicacies, Aura Sushi promises a delightful fusion of flavors.",
+      link: "https://aurasushibarandgrill.co.uk/",
+      icon: FaWordpress,
+    },
+    // {
+    //   imgSrc: "/projects/design_link.webp",
+    //   title: "Design Link",
+    //   tech: "WordPress",
+    //   description:
+    //     "Design Link offers innovative interior design solutions that combine style, functionality, and modern aesthetics. Their approach transforms spaces into beautifully designed environments that enhance both living and working experiences.",
+    //   link: "https://designlink.lk/",
+    //   icon: FaWordpress,
+    // },
+    
+    {
+      imgSrc: "/projects/kv_line.webp",
+      title: "KV Line",
+      tech: "WordPress",
+      description:
+        "KV Line produces professional-grade drumsticks crafted with precision and care for musicians who demand quality. Their drumsticks are designed to enhance performance, offering the perfect balance of durability and playability.",
+      link: "https://kvline.lk/",
+      icon: FaWordpress,
+    },
+     {
       imgSrc: "/projects/sindys.webp",
       title: "Sindy's Clothing",
       tech: "WordPress",
@@ -58,87 +122,25 @@ const Portfolio = () => {
       link: "https://www.afronsuccessacademy.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/amj.webp",
-      title: "AMJ Trading",
-      tech: "WordPress",
-      description:
-        "AMJ Trading specializes in providing high-quality equipment and comprehensive services tailored to fuel stations and service centers. Their offerings are designed to meet the specific needs of professionals in the industry.",
-      link: "https://amjtradingsolutions.com/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/api_flora.webp",
-      title: "Api Flora",
-      tech: "WordPress",
-      description:
-        "Api Flora offers premium, hand-picked floral arrangements that cater to all occasions. Their flower shop is dedicated to delivering fresh, vibrant blooms that express emotions and beauty in the most elegant way possible.",
-      link: "https://apiflora.lk/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/aura_sushi.webp",
-      title: "Aura Sushi",
-      tech: "WordPress",
-      description:
-        "Aura Sushi delivers an exquisite dining experience combining traditional sushi with modern culinary techniques. Whether you're craving sushi or grilled delicacies, Aura Sushi promises a delightful fusion of flavors.",
-      link: "https://aurasushibarandgrill.co.uk/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/design_link.webp",
-      title: "Design Link",
-      tech: "WordPress",
-      description:
-        "Design Link offers innovative interior design solutions that combine style, functionality, and modern aesthetics. Their approach transforms spaces into beautifully designed environments that enhance both living and working experiences.",
-      link: "https://designlink.lk/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/gallage.webp",
-      title: "Gallage Construction",
-      tech: "WordPress",
-      description:
-        "Gallage Construction specializes in high-quality bathroom renovations, floor tiling, and plumbing services. They combine technical expertise with a commitment to craftsmanship, delivering top-tier results on every project.",
-      link: "https://gallageconstruction.lk/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/kv_line.webp",
-      title: "KV Line",
-      tech: "WordPress",
-      description:
-        "KV Line produces professional-grade drumsticks crafted with precision and care for musicians who demand quality. Their drumsticks are designed to enhance performance, offering the perfect balance of durability and playability.",
-      link: "https://kvline.lk/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/musket.webp",
-      title: "Musket Movers",
-      tech: "WordPress",
-      description:
-        "Musket Movers provides professional moving services designed to make relocations smooth and stress-free. Their team handles every aspect of the moving process with care, ensuring items are transported safely and efficiently.",
-      link: "https://muscathousemovers.org/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/natural_lanka.webp",
-      title: "Natural Lanka",
-      tech: "WordPress",
-      description:
-        "Natural Lanka offers a wide range of organic and natural beauty products designed to promote a healthier and more sustainable lifestyle. Their products are carefully crafted to provide a luxurious experience with the benefit of natural ingredients.",
-      link: "https://natural-lanka.com/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/reliable.webp",
-      title: "Reliable GCC",
-      tech: "WordPress",
-      description:
-        "Reliable GCC is a leading construction and development firm that delivers comprehensive services to clients worldwide. With expertise in a wide range of industries, they provide high-quality solutions with global standards.",
-      link: "https://reliablegcc.com/",
-      icon: FaWordpress,
-    },
+    // {
+    //   imgSrc: "/projects/musket.webp",
+    //   title: "Musket Movers",
+    //   tech: "WordPress",
+    //   description:
+    //     "Musket Movers provides professional moving services designed to make relocations smooth and stress-free. Their team handles every aspect of the moving process with care, ensuring items are transported safely and efficiently.",
+    //   link: "https://muscathousemovers.org/",
+    //   icon: FaWordpress,
+    // },
+    
+    // {
+    //   imgSrc: "/projects/reliable.webp",
+    //   title: "Reliable GCC",
+    //   tech: "WordPress",
+    //   description:
+    //     "Reliable GCC is a leading construction and development firm that delivers comprehensive services to clients worldwide. With expertise in a wide range of industries, they provide high-quality solutions with global standards.",
+    //   link: "https://reliablegcc.com/",
+    //   icon: FaWordpress,
+    // },
     {
       imgSrc: "/projects/seafood.webp",
       title: "Sea Food",
@@ -157,15 +159,7 @@ const Portfolio = () => {
       link: "https://sviss.lk/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/tea.webp",
-      title: "Three Flavours",
-      tech: "WordPress",
-      description:
-        "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
-      link: "https://3flavoursauthentic.com/",
-      icon: FaWordpress,
-    },
+   
   ];
 
   return (
