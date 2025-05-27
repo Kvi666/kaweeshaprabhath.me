@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.kaweeshaprabhath.me/
+
+# Sitemaps
+Sitemap: https://www.kaweeshaprabhath.me/sitemap.xml
