@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaPython, FaWordpress } from "react-icons/fa";
+import Head from "next/head";
 
 const Portfolio = () => {
   const projects = [
@@ -163,6 +164,28 @@ const Portfolio = () => {
   ];
 
   return (
+    <> 
+    <Head>
+        <title>Kaweesha Prabhath | Full Stack Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Welcome to the portfolio of Kaweesha Prabhath – a Full Stack Developer proficient in WordPress, React, and Python. Explore my projects and professional resume."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+       
+        <meta property="og:title" content="Kaweesha Prabhath | Portfolio" />
+        <meta
+          property="og:description"
+          content="Discover projects and professional achievements of Kaweesha Prabhath, a skilled Full Stack Developer."
+        />
+        <meta property="og:image" content="/preview.png" />
+        <meta property="og:url" content="https://kaweeshaprabhath.me/" />
+        <meta property="og:type" content="website" />
+       
+        <meta name="twitter:card" content="summary_large_image" />
+    </Head>
     <div
       id="Portfolio"
       className="relative isolate overflow-hidden bg-gray-900"
@@ -223,6 +246,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
