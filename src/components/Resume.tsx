@@ -14,6 +14,14 @@ interface SectionProps {
 }
 
 const educationData: Experience[] = [
+
+
+
+  {
+    date: "April 2025 – Present",
+    title: "BSc (Hons) Software Engineering",
+    description: "Currently pursuing a BSc (Hons) in Software Engineering at ICBT Campus, affiliated with Cardiff Metropolitan University, UK."
+  },
   {
     date: "January 2023 — June 2023 ",
     title: "Full Stack Development",

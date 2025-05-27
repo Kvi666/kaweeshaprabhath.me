@@ -56,7 +56,7 @@ const Header = () => {
         </ul>
         <div className="hidden lg:flex items-center gap-10">
           <a
-            href="/cv.pdf"
+            href="/kaweeshaPrabhath.cv.pdf"
             download
             className="flex items-center gap-2 bg-gray-800 hover:bg-blue-600 text-white py-2 px-5 rounded-md shadow-md border border-slate-500 transition-all duration-300"
           >
