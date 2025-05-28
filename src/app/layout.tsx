@@ -7,11 +7,31 @@ import { Kanit } from "next/font/google";
 const kanit = Kanit({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-kanit", // Optional: You can use this to apply the font via CSS variables
+  variable: "--font-kanit",
 });
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Kaweesha Prabhath",
+              "url": "https://www.kaweeshaprabhath.me",
+              "image": "https://www.kaweeshaprabhath.me/dp.webp",
+              "jobTitle": "Software Engineer",
+              "sameAs": [
+                "https://www.linkedin.com/in/kaweesha-prabhath-989305314/",
+                "https://github.com/Kvi666"
+              ]
+            }),
+          }}
+        />
+      </head>
       <body className={kanit.className}>
         <Cursor />
         <div className="fixed w-full z-50">
