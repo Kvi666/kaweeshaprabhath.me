@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Cursor from "@/components/Cursor";
 import Footer from "@/components/Footer";
 import { Kanit } from "next/font/google";
+import Head from "next/head";
 
 const kanit = Kanit({
   weight: ["400", "500", "600", "700"],
@@ -14,6 +15,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <Head>
+        <title>Kaweesha Prabhath | Portfolio</title>
+      </Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
