@@ -22,10 +22,9 @@ const Hero = () => {
             {/* Text Section */}
             <div className="lg:w-2/3 text-center lg:text-left px-4 md:px-0">
               <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-200 md:text-5xl">
-                Hello Im Kaweesha
+                Hello I&apos;m Kaweesha
               </h2>
               <p className="mt-4 text-gray-300 text-base text-justify sm:text-lg max-w-2xl mx-auto lg:mx-0">
-           
                 A 22-year-old software engineering undergraduate with a passion for building meaningful and creative digital experiences. Driven by curiosity, 
                 I love exploring how things work and enjoy turning ideas into real-world solutions. Whether I&apos;m diving into new technologies or refining my current skills, 
                I&apos;m always focused on growth, positive energy, and creating work that feels exciting and impactful.
