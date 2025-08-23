@@ -20,7 +20,7 @@ const ContactForm = () => {
       )
       .then(
         () => {
-          toast.success("✅ Message sent! I’ll get back to you soon.", {
+          toast.success("Message sent! I’ll get back to you soon.", {
             duration: 5000, 
           });
           form.current?.reset();
