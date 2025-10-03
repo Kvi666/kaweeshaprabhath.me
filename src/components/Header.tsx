@@ -30,7 +30,7 @@ const Header = () => {
     <header className="bg-gray-800 text-white p-4 shadow-xl">
       <nav className="max-w-[1200px] mx-auto flex justify-between items-center">
         <Link href="/">
-          <p className="text-5xl font-black">Kvi</p>
+          <p className="text-xl tracking-wide font-bold">Kaweesha Uduwilaarachchi</p>
         </Link>
         <ul className="hidden lg:flex space-x-6">
           <li>

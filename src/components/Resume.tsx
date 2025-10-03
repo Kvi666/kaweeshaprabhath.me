@@ -53,17 +53,17 @@ const workExperienceData: Experience[] = [
 
   {
     date: "July 2024 - January 2025",
-    title: "Associate Software Engineer",
+    title: "Full Stack Developer",
     company: "Ceylon Ventures Pty Ltd",
     description:
-      "Joined as an Associate Software Engineer, working on the development and maintenance of web and software applications. Gained hands-on experience with full-stack development, collaborating closely with cross-functional teams to deliver effective tech solutions.",
+      "Joined as an Full Stack Developer, working on the development and maintenance of web  applications. Gained hands-on experience with full-stack development, collaborating closely with cross-functional teams to deliver effective tech solutions.",
   },
   {
-    date: "February 2025 - Present",
-    title: "Associate Software Engineer",
+    date: "February 2025 - August 2025",
+    title: "Full Stack Developer",
     company: "Aurora 365",
     description:
-      "Currently working as an Associate Software Engineer at Aurora 365, contributing to ongoing software development projects. Collaborating with teams to build efficient, user-friendly applications while continuing to grow and refine my skill set.",
+      "Currently working as an Full Stack Developer at Aurora 365, contributing to ongoing software development projects. Collaborating with teams to build efficient, user-friendly applications while continuing to grow and refine my skill set.",
   },
   {
     date: "2020 - Present",
