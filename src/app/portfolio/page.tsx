@@ -6,14 +6,23 @@ import Head from "next/head";
 const Portfolio = () => {
   const projects = [
     {
-      imgSrc: "/projects/keyword.png",
-      title: "Keyword Finder in Web Pages",
-      tech: "Python",
-      description:
-        "A Python script that automates the process of scanning multiple web pages for a specific keyword. It extracts the content of each URL, analyzes it, and reports whether the keyword is present, making it a useful tool for SEO research and content analysis.",
-      link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
-      icon: FaPython,
-    },
+          imgSrc: "/projects/keyword.png",
+          title: "Keyword Finder in Web Pages",
+          tech: "Python",
+          description:
+            "A Python script that automates the process of scanning multiple web pages for a specific keyword. It extracts the content of each URL, analyzes it, and reports whether the keyword is present, making it a useful tool for SEO research and content analysis.",
+          link: "https://github.com/Kvi666/Keyword-Finder-in-Web-Pages",
+          icon: FaPython,
+        }, 
+        {
+          imgSrc: "/projects/lootyco.png",
+          title: "Looty Co.",
+          tech: "WordPress",
+          description:
+            "Looty Co. is an online skincare & beauty retailer that curates a selection of dermatologist-tested and effective products—ranging from cleansers, serums, moisturizers, sunscreens to hair care items.They also offer personalized skin consultations to help customers identify the right skincare routine.",
+          link: "https://lootyco.com/",
+          icon: FaWordpress,
+        },
      {
       imgSrc: "/projects/tea.webp",
       title: "Three Flavours",
@@ -21,15 +30,6 @@ const Portfolio = () => {
       description:
         "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
       link: "https://3flavoursauthentic.com/",
-      icon: FaWordpress,
-    },
-    {
-      imgSrc: "/projects/rfr.webp",
-      title: "rfrma.com",
-      tech: "WordPress",
-      description:
-        "rfrma.com is a comprehensive digital marketing platform offering services to help businesses grow their online presence. The site is built with a focus on user experience, utilizing WordPress for content management and a modern design to engage visitors effectively.",
-      link: "https://rfrma.com/",
       icon: FaWordpress,
     },
     {

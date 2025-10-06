@@ -14,6 +14,15 @@ const Projects = () => {
       icon: FaPython,
     }, 
     {
+      imgSrc: "/projects/lootyco.png",
+      title: "Looty Co.",
+      tech: "WordPress",
+      description:
+        "Looty Co. is an online skincare & beauty retailer that curates a selection of dermatologist-tested and effective products—ranging from cleansers, serums, moisturizers, sunscreens to hair care items.They also offer personalized skin consultations to help customers identify the right skincare routine.",
+      link: "https://lootyco.com/",
+      icon: FaWordpress,
+    },
+    {
       imgSrc: "/projects/tea.webp",
       title: "Three Flavours",
       tech: "WordPress",
@@ -22,16 +31,6 @@ const Projects = () => {
       link: "https://3flavoursauthentic.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/rfr.webp",
-      title: "rfrma.com",
-      tech: "WordPress",
-      description:
-        "rfrma.com is a comprehensive digital marketing platform offering services to help businesses grow their online presence. The site is built with a focus on user experience, utilizing WordPress for content management and a modern design to engage visitors effectively.",
-      link: "https://rfrma.com/",
-      icon: FaWordpress,
-    },
-    
     {
       imgSrc: "/projects/chamee.webp",
       title: "chameeth.com",
