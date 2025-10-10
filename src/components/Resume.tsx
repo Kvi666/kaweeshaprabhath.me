@@ -63,7 +63,7 @@ const workExperienceData: Experience[] = [
     title: "Full Stack Developer",
     company: "Aurora 365",
     description:
-      "Currently working as an Full Stack Developer at Aurora 365, contributing to ongoing software development projects. Collaborating with teams to build efficient, user-friendly applications while continuing to grow and refine my skill set.",
+      "Worked as an Full Stack Developer at Aurora 365, contributing to ongoing software development projects. Collaborating with teams to build efficient, user-friendly applications while continuing to grow and refine my skill set.",
   },
   {
     date: "2020 - Present",
