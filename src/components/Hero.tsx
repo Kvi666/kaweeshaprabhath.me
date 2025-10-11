@@ -25,7 +25,7 @@ const Hero = () => {
                 Hello I&apos;m Kaweesha
               </h2>
               <p className="mt-4 text-gray-300 text-base text-justify sm:text-lg max-w-2xl mx-auto lg:mx-0">
-                A 22-year-old software engineering undergraduate with a passion for building meaningful and creative digital experiences. Driven by curiosity, 
+                A 23 years old software engineering undergraduate with a passion for building meaningful and creative digital experiences. Driven by curiosity, 
                 I love exploring how things work and enjoy turning ideas into real-world solutions. Whether I&apos;m diving into new technologies or refining my current skills, 
                I&apos;m always focused on growth, positive energy, and creating work that feels exciting and impactful.
               </p>
