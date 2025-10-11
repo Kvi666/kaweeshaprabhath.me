@@ -4,7 +4,6 @@ import Cursor from "@/components/Cursor";
 import Footer from "@/components/Footer";
 import { Kanit } from "next/font/google";
 
-// ✅ Use Next.js metadata API (no need for `next/head` in App Router)
 export const metadata = {
   title: "Kaweesha Prabhath | Portfolio",
   description:
@@ -18,7 +17,7 @@ export const metadata = {
     siteName: "Kaweesha Prabhath Portfolio",
     images: [
       {
-        url: "/preview.jpg", // ✅ Place this in /public/
+        url: "/preview.jpg", 
         width: 1200,
         height: 630,
         alt: "Kaweesha Prabhath Portfolio Preview",
@@ -33,7 +32,7 @@ export const metadata = {
     description:
       "Full-stack developer portfolio of Kaweesha Prabhath — showcasing web projects, designs, and creative work.",
     images: ["/preview.jpg"],
-    creator: "@kaweesha", // optional if you have a Twitter handle
+    creator: "@kaweesha", 
   },
 };
 
@@ -47,7 +46,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={kanit.className}>
-        {/* ✅ Structured Data (JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
