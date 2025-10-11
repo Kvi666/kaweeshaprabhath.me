@@ -97,7 +97,7 @@ const Hero = () => {
             <div className="lg:w-1/3 flex justify-center lg:justify-end px-4 md:px-0">
               <Image
                 className="w-full max-w-[250px] sm:max-w-xs lg:max-w-md rounded-2xl shadow-lg border border-blue-400"
-                src="/dp.webp"
+                src="/dp.jpg"
                 alt="Profile"
                 width={500}
                 height={500}

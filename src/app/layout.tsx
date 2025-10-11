@@ -3,7 +3,39 @@ import Header from "@/components/Header";
 import Cursor from "@/components/Cursor";
 import Footer from "@/components/Footer";
 import { Kanit } from "next/font/google";
-import Head from "next/head";
+
+// ✅ Use Next.js metadata API (no need for `next/head` in App Router)
+export const metadata = {
+  title: "Kaweesha Prabhath | Portfolio",
+  description:
+    "Full-stack developer portfolio of Kaweesha Prabhath — showcasing web projects, designs, and creative work.",
+  metadataBase: new URL("https://kaweeshaprabhath.me"),
+  openGraph: {
+    title: "Kaweesha Prabhath | Portfolio",
+    description:
+      "Full-stack developer portfolio of Kaweesha Prabhath — showcasing web projects, designs, and creative work.",
+    url: "https://kaweeshaprabhath.me",
+    siteName: "Kaweesha Prabhath Portfolio",
+    images: [
+      {
+        url: "/preview.jpg", // ✅ Place this in /public/
+        width: 1200,
+        height: 630,
+        alt: "Kaweesha Prabhath Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kaweesha Prabhath | Portfolio",
+    description:
+      "Full-stack developer portfolio of Kaweesha Prabhath — showcasing web projects, designs, and creative work.",
+    images: ["/preview.jpg"],
+    creator: "@kaweesha", // optional if you have a Twitter handle
+  },
+};
 
 const kanit = Kanit({
   weight: ["400", "500", "600", "700"],
@@ -14,29 +46,27 @@ const kanit = Kanit({
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <Head>
-        <title>Kaweesha Prabhath | Portfolio</title>
-      </Head>
+      <body className={kanit.className}>
+        {/* ✅ Structured Data (JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Kaweesha Prabhath",
-              "url": "https://www.kaweeshaprabhath.me",
-              "image": "https://www.kaweeshaprabhath.me/dp.webp",
-              "jobTitle": "Software Engineer",
-              "sameAs": [
+              name: "Kaweesha Prabhath",
+              url: "https://kaweeshaprabhath.me",
+              image: "https://kaweeshaprabhath.me/dp.webp",
+              jobTitle: "Software Engineer",
+              sameAs: [
                 "https://www.linkedin.com/in/kaweesha-prabhath-989305314/",
-                "https://github.com/Kvi666"
-              ]
+                "https://github.com/Kvi666",
+              ],
             }),
           }}
         />
-      </head>
-      <body className={kanit.className}>
+
+        {/* Components */}
         <Cursor />
         <div className="fixed w-full z-50">
           <Header />
