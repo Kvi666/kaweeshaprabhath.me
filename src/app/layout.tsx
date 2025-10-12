@@ -34,6 +34,10 @@ export const metadata = {
     images: ["/preview.jpg"],
     creator: "@kaweesha", 
   },
+  other: {
+    "msapplication-TileImage": "https://kaweeshaprabhath.me/preview.jpg",
+    "msapplication-TileColor": "#101828", 
+  },
 };
 
 const kanit = Kanit({
