@@ -6,7 +6,7 @@ import Head from "next/head";
 const Portfolio = () => {
   const projects = [
     {
-          imgSrc: "/projects/keyword.png",
+          imgSrc: "/projects/keyword.webp",
           title: "Keyword Finder in Web Pages",
           tech: "Python",
           description:
@@ -15,7 +15,7 @@ const Portfolio = () => {
           icon: FaPython,
         }, 
         {
-          imgSrc: "/projects/lootyco.png",
+          imgSrc: "/projects/lootyco.webp",
           title: "Looty Co.",
           tech: "WordPress",
           description:
@@ -23,6 +23,15 @@ const Portfolio = () => {
           link: "https://lootyco.com/",
           icon: FaWordpress,
         },
+        {
+              imgSrc: "/projects/sviss.webp",
+              title: "Sviss",
+              tech: "WordPress",
+              description:
+                "Sviss Cosmetics is a modern beauty destination dedicated to delivering high-performance skincare and beauty essentials. The brand brings together carefully formulated products—from daily face washes and targeted treatments to nourishing moisturizers, sun protection, and hair care—designed to support healthy, radiant skin.",
+              link: "https://sviss.lk/",
+              icon: FaWordpress,
+            },
      {
       imgSrc: "/projects/tea.webp",
       title: "Three Flavours",
@@ -59,15 +68,15 @@ const Portfolio = () => {
       link: "https://natural-lanka.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/amj.webp",
-      title: "AMJ Trading",
-      tech: "WordPress",
-      description:
-        "AMJ Trading specializes in providing high-quality equipment and comprehensive services tailored to fuel stations and service centers. Their offerings are designed to meet the specific needs of professionals in the industry.",
-      link: "https://amjtradingsolutions.com/",
-      icon: FaWordpress,
-    },
+    // {
+    //   imgSrc: "/projects/amj.webp",
+    //   title: "AMJ Trading",
+    //   tech: "WordPress",
+    //   description:
+    //     "AMJ Trading specializes in providing high-quality equipment and comprehensive services tailored to fuel stations and service centers. Their offerings are designed to meet the specific needs of professionals in the industry.",
+    //   link: "https://amjtradingsolutions.com/",
+    //   icon: FaWordpress,
+    // },
     // {
     //   imgSrc: "/projects/api_flora.webp",
     //   title: "Api Flora",
@@ -77,15 +86,15 @@ const Portfolio = () => {
     //   link: "https://apiflora.lk/",
     //   icon: FaWordpress,
     // },
-    {
-      imgSrc: "/projects/aura_sushi.webp",
-      title: "Aura Sushi",
-      tech: "WordPress",
-      description:
-        "Aura Sushi delivers an exquisite dining experience combining traditional sushi with modern culinary techniques. Whether you're craving sushi or grilled delicacies, Aura Sushi promises a delightful fusion of flavors.",
-      link: "https://aurasushibarandgrill.co.uk/",
-      icon: FaWordpress,
-    },
+    // {
+    //   imgSrc: "/projects/aura_sushi.webp",
+    //   title: "Aura Sushi",
+    //   tech: "WordPress",
+    //   description:
+    //     "Aura Sushi delivers an exquisite dining experience combining traditional sushi with modern culinary techniques. Whether you're craving sushi or grilled delicacies, Aura Sushi promises a delightful fusion of flavors.",
+    //   link: "https://aurasushibarandgrill.co.uk/",
+    //   icon: FaWordpress,
+    // },
     // {
     //   imgSrc: "/projects/design_link.webp",
     //   title: "Design Link",
@@ -105,15 +114,15 @@ const Portfolio = () => {
       link: "https://kvline.lk/",
       icon: FaWordpress,
     },
-     {
-      imgSrc: "/projects/sindys.webp",
-      title: "Sindy's Clothing",
-      tech: "WordPress",
-      description:
-        "Sindy's Clothing offers a diverse collection of trendy, bold styles designed for the fashion-forward. The brand effortlessly blends quality fabrics with unique, statement-making designs that cater to those who want to stand out.",
-      link: "https://sindyss.com/",
-      icon: FaWordpress,
-    },
+    //  {
+    //   imgSrc: "/projects/sindys.webp",
+    //   title: "Sindy's Clothing",
+    //   tech: "WordPress",
+    //   description:
+    //     "Sindy's Clothing offers a diverse collection of trendy, bold styles designed for the fashion-forward. The brand effortlessly blends quality fabrics with unique, statement-making designs that cater to those who want to stand out.",
+    //   link: "https://sindyss.com/",
+    //   icon: FaWordpress,
+    // },
     {
       imgSrc: "/projects/afron.webp",
       title: "Afron Success",
@@ -151,15 +160,15 @@ const Portfolio = () => {
       link: "https://3flavoursseafood.com/",
       icon: FaWordpress,
     },
-    {
-      imgSrc: "/projects/sviss.webp",
-      title: "Sviss",
-      tech: "WordPress",
-      description:
-        "Sviss delivers premium personal care and beauty products designed for a luxurious lifestyle. With an emphasis on quality, their products offer the perfect balance of indulgence and practicality, elevating daily self-care routines.",
-      link: "https://sviss.lk/",
-      icon: FaWordpress,
-    },
+    // {
+    //   imgSrc: "/projects/sviss.webp",
+    //   title: "Sviss",
+    //   tech: "WordPress",
+    //   description:
+    //     "Sviss delivers premium personal care and beauty products designed for a luxurious lifestyle. With an emphasis on quality, their products offer the perfect balance of indulgence and practicality, elevating daily self-care routines.",
+    //   link: "https://sviss.lk/",
+    //   icon: FaWordpress,
+    // },
    
   ];
 

@@ -5,7 +5,7 @@ import { FaWordpress, FaPython } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
-      imgSrc: "/projects/keyword.png",
+      imgSrc: "/projects/keyword.webp",
       title: "Keyword Finder in Web Pages",
       tech: "Python",
       description:
@@ -14,7 +14,7 @@ const Projects = () => {
       icon: FaPython,
     }, 
     {
-      imgSrc: "/projects/lootyco.png",
+      imgSrc: "/projects/lootyco.webp",
       title: "Looty Co.",
       tech: "WordPress",
       description:
@@ -23,23 +23,32 @@ const Projects = () => {
       icon: FaWordpress,
     },
     {
-      imgSrc: "/projects/tea.webp",
-      title: "Three Flavours",
+      imgSrc: "/projects/sviss.webp",
+      title: "Sviss",
       tech: "WordPress",
       description:
-        "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
-      link: "https://3flavoursauthentic.com/",
+        "Sviss Cosmetics is a modern beauty destination dedicated to delivering high-performance skincare and beauty essentials. The brand brings together carefully formulated products—from daily face washes and targeted treatments to nourishing moisturizers, sun protection, and hair care—designed to support healthy, radiant skin.",
+      link: "https://sviss.lk/",
       icon: FaWordpress,
     },
     {
-      imgSrc: "/projects/chamee.webp",
-      title: "chameeth.com",
-      tech: "WordPress",
-      description:
-        "Chameeth.com is an interactive platform for book lovers. It offers a wide variety of genres, personalized recommendations, and a user-friendly design, making it an ideal space for readers to discover new books. The website is built on WordPress, ensuring easy content updates and management.",
-      link: "https://chameeth.com/",
-      icon: FaWordpress,
-    },
+          imgSrc: "/projects/tea.webp",
+          title: "Three Flavours",
+          tech: "WordPress",
+          description:
+            "Three Flavours offers premium tea blends that deliver rich, authentic flavors in every cup. With a selection of finely crafted teas, they provide a luxurious tea-drinking experience that delights the senses.",
+          link: "https://3flavoursauthentic.com/",
+          icon: FaWordpress,
+        },
+    // {
+    //   imgSrc: "/projects/chamee.webp",
+    //   title: "chameeth.com",
+    //   tech: "WordPress",
+    //   description:
+    //     "Chameeth.com is an interactive platform for book lovers. It offers a wide variety of genres, personalized recommendations, and a user-friendly design, making it an ideal space for readers to discover new books. The website is built on WordPress, ensuring easy content updates and management.",
+    //   link: "https://chameeth.com/",
+    //   icon: FaWordpress,
+    // },
     
   ];
 
