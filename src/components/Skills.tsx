@@ -28,7 +28,7 @@ export default function Skills() {
     { name: "Git", logo: "/skills/git.webp" },
     { name: "GitHub", logo: "/skills/github.webp" },
     { name: "Photoshop", logo: "/skills/photoshop.webp" },
-    { name: "Premiere Pro", logo: "/skills/premiere-pro.webp" },
+    { name: "PremierePro", logo: "/skills/premiere-pro.webp" },
     { name: "Illustrator", logo: "/skills/illustrator.webp" },
   ];
 
