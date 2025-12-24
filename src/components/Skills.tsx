@@ -11,6 +11,8 @@ import Autoplay from "embla-carousel-autoplay";
 
 export default function Skills() {
   const skills = [
+    { name: "Wordpress", logo: "/skills/wordpress.png" },
+    { name: "Shopify", logo: "/skills/shopify.png" },
     { name: "React", logo: "/skills/react.webp" },
     { name: "JavaScript", logo: "/skills/js.webp" },
     { name: "TypeScript", logo: "/skills/typescript.webp" },
