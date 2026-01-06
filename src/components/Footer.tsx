@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="bg-gray-900">
       <div className="max-w-[1200px] text-center mx-auto text-gray-400 py-8">
         <div className="w-full border-t border-gray-800 p-2 pt-8 text-center">
-          <p>© 2025 Kaweesha Prabhath Uduwilaarachchi. All rights reserved.</p>
+          <p>© 2026 Kaweesha Prabhath Uduwilaarachchi. All rights reserved.</p>
         </div>
 
         <div className="inline-flex m-auto gap-4 text-grey mt-4 sm:mt-0">
